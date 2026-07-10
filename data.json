@@ -1,0 +1,354 @@
+[
+  {
+    "id": "2026_anlci_recherche-action-andragogie",
+    "titre": "Recherche-action en andragogie",
+    "source": "ANLCI (Agence nationale de lutte contre l'Illettrisme)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-06-23",
+    "date_cloture_sort": "2026-09-30",
+    "date_cloture_display": "30 septembre 2026",
+    "montant_table": "10 000 € max",
+    "montant_detail": "10 000 € maximum (financement d'amorçage)",
+    "thematiques": [
+      "Andragogie",
+      "Illettrisme",
+      "IA en formation d'adultes"
+    ],
+    "recurrence": "inconnue (rien n'indique une édition annuelle ; présenté comme une relance ponctuelle de la recherche sur ce sujet)",
+    "prochaine_echeance": null,
+    "contact": "celine.mezange@anlci.gouv.fr (dépôt du dossier) ; +33(0)4 37 37 16 80 (contact général ANLCI)",
+    "lien": "https://www.anlci.gouv.fr/appels-a-projets/recherche-action-dans-le-domaine-de-landragogie-pour-des-publics-en-difficulte-avec-les-competences-de-base/",
+    "objet": "Appui financier de l'ANLCI pour une **recherche-action en andragogie** auprès de publics en situation d'illettrisme (difficultés avec les compétences de base). Objectif : expérimenter des approches de formation/remédiation innovantes en associant un opérateur de terrain et un·e chercheur·se, afin de produire de la connaissance et de « relancer la production de recherche sur ce sujet ». Thématiques suggérées (liste non exhaustive) : compétences psychosociales en formation, apports des neurosciences à la remédiation, usages de l'IA dans la formation des adultes en situation d'illettrisme.",
+    "eligibles": [
+      "**Porteur du projet** : un organisme ou un·e formateur·rice de terrain (pas un·e chercheur·se seul·e) — c'est l'organisme qui dépose la fiche projet",
+      "Le/la chercheur·se intervient comme **partenaire associé**, chargé de s'appuyer sur l'expérimentation pour produire de la connaissance"
+    ],
+    "conditions": [
+      "Partenariat obligatoire entre un opérateur de terrain (organisme/formateur) et un·e chercheur·se — si le partenariat n'est pas encore identifié, la fiche projet permet d'indiquer seulement des « pistes »",
+      "Expérimentation à mener auprès de publics en situation d'illettrisme",
+      "Production attendue : un **article collectif (chercheur/formateur)** rendant compte de l'expérimentation, plus les livrables propres au projet (rapports, guides, outils...)",
+      "Critères de sélection annoncés : faisabilité au regard du financement d'amorçage, prise en compte de la spécificité des publics cible, pertinence de l'axe de recherche-action, plus-value des livrables pour les professionnels",
+      "Financement qualifié d'« amorçage » : un budget prévisionnel total et des cofinancements envisagés sont demandés dans la fiche (le financement ANLCI ne couvre pas nécessairement l'intégralité du projet)"
+    ],
+    "pieces": [
+      "Fiche de présentation (fournie en pièce jointe du même document, jointe telle quelle dans [[ANLCI_appel-a-candidature_2026.pdf|ANLCI_appel-a-candidature_2026.pdf]]), à retourner à celine.mezange@anlci.gouv.fr avant le 30/09/2026, couvrant : identification du projet, présentation de l'organisme porteur (dont expertise), présentation synthétique (10-15 lignes), objectifs généraux/spécifiques, axes et questions de recherche, partenaires associés (dont chercheur·se), durée et phases de l'expérimentation, ressources humaines mobilisées, budget prévisionnel détaillé, livrables et modalités de diffusion, informations complémentaires"
+    ],
+    "notes": null
+  },
+  {
+    "id": "2026_ao-master",
+    "titre": "Bourses de stage Master TMBI",
+    "source": "TMBI — Appel d'Offre Master TMBI 2026",
+    "type": "externe",
+    "statut": "clos",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-06-29",
+    "date_cloture_display": "29 juin 2026",
+    "montant_table": "Gratification stage",
+    "montant_detail": "gratification de stage — montant demandé par le/la candidat·e, non plafonné dans le document ; 5 bourses attribuées dont 1 réservée à une collaboration impliquant nécessairement l'IRIT",
+    "thematiques": [
+      "Neurosciences",
+      "Stage M2"
+    ],
+    "recurrence": "annuelle (le texte indique que le TMBI « renouvelle » cette bourse)",
+    "prochaine_echeance": "2027-06-29 (estimation par analogie avec la clôture 2026 ; à confirmer)",
+    "contact": "lionel.dahan@utoulouse.fr ; chloe.farrer@cnrs.fr",
+    "lien": null,
+    "objet": "Renouvellement d'un appel à bourses du TMBI (sigle non détaillé dans le document — à confirmer, vraisemblablement Toulouse Mind & Brain Institute) pour financer jusqu'à 6 mois de gratification de stages de recherche d'étudiant·es en Master 2, pour l'année 2026/2027. **5 bourses** seront attribuées, dont **1 réservée** à un stage impliquant nécessairement l'IRIT.",
+    "eligibles": [
+      "Projet impliquant des membres d'au moins **2 laboratoires ou équipes d'accueil émargeant au TMBI**",
+      "Équipes associées éligibles (Pradort, Evolsan…), mais au moins l'un des deux partenaires de la demande doit appartenir à un laboratoire siégeant au Comité de Pilotage (CoPil) du TMBI",
+      "2 encadrant·es requis (1 par laboratoire/équipe partenaire), chacun devant justifier son expertise par une référence scientifique en lien avec le projet"
+    ],
+    "conditions": [
+      "Financement **exclusivement dédié à la gratification** du/de la stagiaire — aucune autre dépense mentionnée comme éligible (pas de mission, matériel, fonctionnement)",
+      "Durée du stage : 6 mois maximum ; montant de gratification demandé à préciser par le/la candidat·e",
+      "Priorité aux **nouvelles collaborations** et aux projets ne bénéficiant pas déjà d'un financement existant",
+      "À l'issue du stage : remise obligatoire d'une copie du rapport de recherche au TMBI + présentation à une réunion scientifique du TMBI (par l'étudiant·e ou les encadrant·es)",
+      "En cas de valorisation (poster, publication, conférence...) : citer le TMBI en remerciements en tant que soutien financier"
+    ],
+    "pieces": [
+      "Dossier de **2 pages maximum** (trame `Template_AOMaster_TMBI2026.docx`), en français ou en anglais, incluant : nom des encadrant·es et leur expertise, argumentaire scientifique et évolution prévisionnelle du projet au-delà du Master, planning de réalisation (Gantt), durée du stage souhaitée et montant de gratification demandé, faisabilité matérielle et financière, une référence scientifique par encadrant·e (2 au total)",
+      "Envoi au format PDF à lionel.dahan@utoulouse.fr et chloe.farrer@cnrs.fr"
+    ],
+    "notes": "L'appel indique que le TMBI « renouvelle » cette bourse — probable édition annuelle. À resurveiller courant 2027 pour une prochaine édition (date d'ouverture non précisée dans ce document, la clôture 2026 tombait fin juin). Critères d'évaluation : originalité du projet + interdisciplinarité, qualité de la rédaction, faisabilité (6 mois max, perspectives doctorat ou autre), priorité aux nouvelles collaborations sans financement existant Comité de sélection : CoPil du TMBI"
+  },
+  {
+    "id": "2026_inuc_bqr",
+    "titre": "BQR — Bonus Qualité Recherche",
+    "source": "INU Champollion — Direction de la recherche (Bonus Qualité Recherche, dispositif interne financé par prélèvement sur les contrats de recherche gérés par l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-01-09",
+    "date_cloture_display": "9 janvier 2026 (volet 2 — stage M2) ; 7 mars 2026 (volets 1 et 3)",
+    "montant_table": "Jusqu'à 8 500 €",
+    "montant_detail": "Volet 1 (manifestations scientifiques) : 7 500 € au total. Volet 2 (stage M2) : 4 000 €, un seul lauréat (gratification + fonctionnement). Volet 3 (projets pluridisciplinaires UT ou internationaux) : 8 500 € maximum au total",
+    "thematiques": [
+      "Manifestations scientifiques",
+      "Stage M2",
+      "Pluridisciplinaire"
+    ],
+    "recurrence": "annuelle (le texte précise « Les lauréats sont sélectionnés chaque année » ; critères et budget récemment révisés suite aux travaux du Groupe de Travail Recherche)",
+    "prochaine_echeance": "~janvier 2027 (volet 2) et ~début mars 2027 (volets 1 et 3)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "**Volet 1** : organisation de manifestations scientifiques à l'INU Champollion (7 500 €) **Volet 2** : financement d'un stage de master 2 — gratification + fonctionnement (4 000 €, un seul lauréat) **Volet 3** : projets de recherche pluridisciplinaires en partenariat avec un laboratoire de l'Université de Toulouse ou un partenaire international (8 500 € max au total)",
+    "eligibles": [
+      "Tout membre permanent de l'INU Champollion, quel que soit son domaine de recherche."
+    ],
+    "conditions": [
+      "Volet 3 : partenariat obligatoire avec un laboratoire de l'Université de Toulouse ou un partenaire international",
+      "Critères communs d'évaluation : projet collectif, collaboratif aux interfaces disciplinaires, intérêt scientifique, présence de cofinancements, retombées pour l'INU Champollion",
+      "Audition orale devant la Commission Recherche (résumé 5 min + échanges) : 15 janvier 2026 après-midi pour le volet 2, 19 mars 2026 après-midi pour les volets 1 et 3",
+      "Financement non reconductible de droit, ne doit pas suppléer la dotation récurrente d'une entité"
+    ],
+    "pieces": [
+      "Dossier de candidature (4 pages max) : intitulé, responsable/collaborateurs/partenaires, résumé pédagogique, projet scientifique détaillé (objectifs, originalité, dimension interdisciplinaire et inter-institutionnelle, apports de chaque acteur, bénéfices attendus), budget prévisionnel + cofinancements",
+      "Dossier de synthèse (4 pages max) décrivant les aspects scientifiques/financiers et les retombées pour l'INU Champollion"
+    ],
+    "notes": "**Attention calendrier** : le volet 2 (stage M2) a une échéance nettement plus précoce (9 janvier) que les trois autres AAP internes (7 mars) — à suivre séparément dans les tâches. Toutes les échéances 2026 (9 janvier et 7 mars) sont déjà dépassées à la date de veille (10/07/2026)."
+  },
+  {
+    "id": "2026_inuc_equipement",
+    "titre": "AAP Équipement",
+    "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-03-07",
+    "date_cloture_display": "7 mars 2026",
+    "montant_table": "Non plafonné",
+    "montant_detail": "non plafonné explicitement — financement d'investissement sur budget propre de l'établissement, montant par lauréat non précisé",
+    "thematiques": [
+      "Transversal",
+      "Équipement"
+    ],
+    "recurrence": "annuelle (le texte précise « Les lauréats sont sélectionnés chaque année »)",
+    "prochaine_echeance": "~début mars 2027 (par analogie avec le calendrier 2026 ; échéance 2026 déjà passée à la date de veille)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "Dispositif interne annuel de l'INU Champollion permettant, par des crédits d'investissement sur le budget propre de l'établissement, de financer l'acquisition ou le renouvellement de matériel de recherche. Sélection par la Commission Recherche.",
+    "eligibles": [
+      "Porteur : tout **responsable d'entité de recherche** de l'INU Champollion (pas un chercheur isolé)",
+      "Financement exclusivement dédié à des **équipements** (pas de fonctionnement, mission, salaire...)"
+    ],
+    "conditions": [
+      "Projet s'intégrant dans les axes stratégiques de l'établissement",
+      "Projet collectif valorisé (versus demande individuelle)",
+      "Intérêt scientifique de l'équipement démontré",
+      "Présence ou non de cofinancements prise en compte dans l'évaluation",
+      "Retombées attendues pour l'entité et pour l'INU Champollion",
+      "Achats à exécuter (dépenses facturées) avant le 31 décembre 2026",
+      "Si l'entité dépose plusieurs demandes, elles doivent être classées par ordre de priorité"
+    ],
+    "pieces": [
+      "Dossier de candidature (2 pages max) : type d'équipement et usages envisagés, projet scientifique détaillé (spécificités / objectifs scientifiques / retombées), budget demandé, cofinancements éventuels et coûts de maintenance prévisionnels",
+      "Dossier de synthèse (2 pages max), à remettre début 2027, décrivant les premières retombées de l'acquisition — communiqué ensuite à la Commission Recherche"
+    ],
+    "notes": "Échéances identiques pour les 4 dispositifs internes 2026 (Équipement / International / SAPS / BQR volets 1 et 3) : remise 7 mars 2026, commission 19 mars 2026. Ces deux dates sont déjà passées à la date de veille (10/07/2026) — cette fiche documente l'édition 2026 pour anticiper l'édition 2027, elle n'est pas actionnable immédiatement."
+  },
+  {
+    "id": "2026_inuc_international",
+    "titre": "AAP International",
+    "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-03-07",
+    "date_cloture_display": "7 mars 2026",
+    "montant_table": "10 000 € / 8 000 €",
+    "montant_detail": "Volet 1 (mobilité bilatérale réciproque) : 10 000 € au total, ~2 500 €/lauréat. Volet 2 (chercheur invité) : 8 000 € au total (1 projet de 2 mois à 8 000 € ou 2 projets d'1 mois à 4 000 € chacun)",
+    "thematiques": [
+      "International",
+      "Mobilité"
+    ],
+    "recurrence": "probable (dispositif interne au même calendrier que les autres AAP internes 2026, mais non qualifié explicitement d'annuel dans ce texte, contrairement à Équipement et BQR)",
+    "prochaine_echeance": "~début mars 2027 (par analogie ; échéance 2026 déjà passée à la date de veille)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "**Volet 1 — Mobilité bilatérale réciproque** : double mobilité (sortante du chercheur INUC puis entrante du partenaire étranger), chacune d'environ une semaine, avec un partenaire situé en Europe ou en Afrique du Nord. **Volet 2 — Chercheur invité** : accueil d'un chercheur étranger de 15 jours à 2 mois, associant recherche et enseignement (12h de formation en présentiel par mois).",
+    "eligibles": [
+      "Porteur : tout chercheur permanent de l'INU Champollion, quel que soit son domaine",
+      "Volet 1 : nécessite un partenaire étranger (organisme ou université) avec sujet de recherche commun déjà identifié",
+      "Volet 2 : chercheur invité = personnalité scientifique reconnue dans son champ, rémunérée par un organisme identifié, sans limite d'âge"
+    ],
+    "conditions": [
+      "Volet 1 : partenaire situé en Europe ou Afrique du Nord ; engagement du partenaire à donner un séminaire (FR ou EN) à l'INUC pendant son séjour",
+      "Volet 2 : le chercheur invité doit assurer ~12h/mois d'enseignement (ou activité équivalente) en licence/master/doctorat",
+      "Dans les deux volets : audition orale devant la Commission Recherche le 19 mars 2026 après-midi (présentation 10 min + échanges) — présence du porteur requise",
+      "Dossier de candidature 3 pages max (les deux volets)",
+      "Dossier de synthèse 3 pages max, à remettre dans les 30 jours suivant la mission"
+    ],
+    "pieces": [
+      "**Volet 1** : intitulé, renseignements porteur/collaborateurs, renseignements sur le chercheur étranger, résumé, détails du projet (thématique, collaboration, complémentarité, retombées, perspectives, calendrier), budget détaillé + cofinancements, CV du chercheur étranger, lettre d'intention du laboratoire étranger",
+      "**Volet 2** : intitulé, renseignements porteur/collaborateurs, renseignements chercheur étranger (recherche + formation), résumé, contexte/pertinence de l'invitation, CV, budget détaillé + cofinancements"
+    ],
+    "notes": "Échéance 2026 (7 mars) déjà dépassée à la date de veille — fiche informative pour l'édition 2027."
+  },
+  {
+    "id": "2026_inuc_saps",
+    "titre": "AAP SAPS",
+    "source": "INU Champollion — Direction de la recherche (dispositif interne, volet Science-Avec-Et-Pour-la-Société)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-03-07",
+    "date_cloture_display": "7 mars 2026",
+    "montant_table": "1 000 € (pot commun)",
+    "montant_detail": "budget total de 1 000 € réparti entre plusieurs projets lauréats (montant par projet non précisé)",
+    "thematiques": [
+      "Médiation scientifique",
+      "Sciences-avec-et-pour-la-société"
+    ],
+    "recurrence": "probable (dispositif interne au même calendrier que les autres AAP internes 2026, non qualifié explicitement d'annuel dans ce texte)",
+    "prochaine_echeance": "~début mars 2027 (par analogie ; échéance 2026 déjà passée à la date de veille)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "Dispositif interne « Sciences-Avec-et-Pour-la-Société » destiné à financer de petites actions de médiation scientifique ou l'achat de petit matériel pour diffuser la recherche de l'INU Champollion vers un public non spécialiste (scolaires, associations, professionnels, grand public), en priorité dans des territoires ruraux, périurbains ou classés QPV, éloignés des métropoles toulousaine et montpelliéraine. Le texte précise explicitement que ce financement ne doit pas se substituer à la dotation récurrente d'une entité et n'est pas reconductible de droit.",
+    "eligibles": [
+      "Tout personnel permanent de l'INU Champollion, quel que soit son domaine de recherche."
+    ],
+    "conditions": [
+      "Action concrète (exposition, atelier, rencontre-débat...) ou achat de petit matériel dédié à la médiation",
+      "Critères favorisés à l'évaluation : portée citoyenne, public cible explicite, territoires ruraux/périurbains/QPV, faisabilité, dimension écologique, caractère collectif et interdisciplinaire du projet",
+      "Budget global très limité (1 000 € pour l'ensemble des lauréats) — financement d'appoint, pas un financement de projet de recherche",
+      "Audition orale devant la Commission Recherche : résumé 5 min + échanges, le 19 mars 2026"
+    ],
+    "pieces": [
+      "Dossier de candidature (1 page max) : intitulé, responsable/collaborateurs/partenaires, objectifs et thématique, utilisation des fonds, originalité, retombées pour l'INU Champollion, budget prévisionnel + cofinancements",
+      "Dossier de synthèse (2 pages max) avec images illustrant l'action, décrivant l'apport du financement et les retombées"
+    ],
+    "notes": "Échéance 2026 (7 mars) déjà dépassée à la date de veille."
+  },
+  {
+    "id": "2027_mshst_apex-exploratoires",
+    "titre": "APEX — Appel à Projets Exploratoires",
+    "source": "MSHS-T (Maison des Sciences Humaines et Sociales de Toulouse) — Appel à Projets Exploratoires (APEX)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-09-08",
+    "date_cloture_sort": "2026-10-15",
+    "date_cloture_display": "15 octobre 2026",
+    "montant_table": "10 000 € max",
+    "montant_detail": "10 000 € maximum",
+    "thematiques": [
+      "Interdisciplinarité SHS",
+      "Recherche exploratoire"
+    ],
+    "recurrence": "annuelle (appel labellisé « Édition 2027 »)",
+    "prochaine_echeance": "2027-10-15 (estimation par analogie avec le cycle 2026→2027 ; à confirmer)",
+    "contact": "heloise.leloup@cnrs.fr (avant soumission, scientifique) ; eloise.gransagne@cnrs.fr (financier/dépôts ultérieurs)",
+    "lien": "https://mshs.univ-toulouse.fr/interdisciplinarite/appels-a-projets/",
+    "objet": "Recherches **exploratoires** interdisciplinaires plaçant les SHS au centre, sur des problématiques originales et inédites. Objectif : faire émerger de nouvelles thématiques/approches susceptibles, à terme, d'avoir un impact scientifique et/ou socio-économique/culturel suffisant pour déboucher sur des projets structurants pour le site toulousain (accès à des financements ultérieurs : TIRIS, RnMSH, Région Occitanie, Institut SHS du CNRS, ANR).",
+    "eligibles": [
+      "Porteur·euse en SHS, membre de l'un des 36 laboratoires du périmètre MSHS-T",
+      "Consortium d'au moins **2 laboratoires** (dont au moins 1 en SHS), de préférence rattachés à au moins 2 établissements du site toulousain",
+      "Interdisciplinarité visible via (a) au moins 2 domaines des SHS, **ou** (b) association SHS + autre domaine scientifique (sciences de la vie/environnement, sciences et technologies)"
+    ],
+    "conditions": [
+      "Caractère interdisciplinaire **très affirmé** et objectifs inédits, y compris quand les équipes travaillent déjà ensemble",
+      "Expliciter clairement l'apport de chaque discipline et la plus-value attendue de la collaboration (méthodes novatrices issues du croisement disciplinaire ; les projets pluridisciplinaires à dynamique émergente sont aussi soutenus)",
+      "Lien possible (non obligatoire) avec l'un des 3 piliers TIRIS : santé-bien-être / changement et impact sociétaux / transitions durables",
+      "**Contact préalable fortement recommandé avant toute soumission** : heloise.leloup@cnrs.fr",
+      "**Dépenses non éligibles** : frais de gestion, achat de matériel informatique, fonctionnement des laboratoires, allocations de thèse, salaires (CDD, vacations, formation)",
+      "**Dépenses éligibles exclusivement** : déplacements, hébergement, restauration liée au projet, prestations liées au projet, gratifications de stagiaires Master (cas par cas)",
+      "Obligation d'atteindre un taux de consommation de 60 % fin juin 2027 (bilan intermédiaire, risque de redimensionnement de l'enveloppe sinon)",
+      "Engagements des lauréat·es : bilan scientifique + financier de fin de projet (31/03/N+1), réunion de restitution (mai/juin N+1), résumé FR/EN de 10 lignes max, dépôt HAL recommandé, mention/logo « financé par la MSHS-T » obligatoire dans les publications",
+      "Volet international possible : coportage avec la Maison Française d'Oxford (MFO) ou le CEMCA (Mexique), montage à préparer en amont avec Eloïse Gransagne"
+    ],
+    "pieces": [
+      "Dossier de candidature (`MSHST_AAP_candidature_APEX_2027.docx`) : renseignements administratifs, liste des partenaires (tableau), présentation scientifique en 8 points a→h (objectifs, contexte, consortium, méthodologie, mise en œuvre de l'interdisciplinarité, valeur ajoutée, impacts, actions futures), budget détaillé par poste, visa du directeur d'unité",
+      "Dépôt **exclusivement en ligne** via la plateforme AGAPE (https://agape.univ-tlse2.fr/), pièces jointes au format PDF en priorité",
+      "Pas de CV explicitement demandé (à la différence de l'appel Workshop)"
+    ],
+    "notes": "Comité de sélection : classement sur expertises scientifiques extérieures (au moins 2 par projet), spécialistes français ou étrangers Calendrier : lancement 08/09/2026 → clôture 15/10/2026 12h00 → évaluation nov. 2026-janv. 2027 → notification 11/01/2027 → réunion des lauréat·es 21/01/2027 → démarrage 01/02/2027 → fin 30/11/2027 → restitution juin 2028"
+  },
+  {
+    "id": "2027_mshst_workshop-reseaux",
+    "titre": "Workshops — Réseaux de recherche interdisciplinaires",
+    "source": "MSHS-T (Maison des Sciences Humaines et Sociales de Toulouse) — Appel à Workshops « Réseaux de recherche interdisciplinaires »",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-09-08",
+    "date_cloture_sort": "2026-10-15",
+    "date_cloture_display": "15 octobre 2026",
+    "montant_table": "2 000 € max",
+    "montant_detail": "2 000 € maximum (pour l'ensemble des rencontres prévues du réseau, plusieurs rencontres possibles)",
+    "thematiques": [
+      "Interdisciplinarité SHS",
+      "Réseaux de recherche"
+    ],
+    "recurrence": "annuelle (appel labellisé « Édition 2027 »)",
+    "prochaine_echeance": "2027-10-15 (estimation par analogie avec le cycle 2026→2027 ; à confirmer)",
+    "contact": "heloise.leloup@cnrs.fr",
+    "lien": "http://mshs.univ-toulouse.fr/",
+    "objet": "Accompagnement à la **mise en place de nouveaux réseaux de recherche interdisciplinaires** : échanger et partager expériences/méthodologies autour d'une thématique interdisciplinaire. Deux types de réseaux possibles : (1) regroupant plusieurs disciplines des SHS, (2) associant SHS et autres sciences. Plusieurs rencontres peuvent être financées pour un même réseau.",
+    "eligibles": [
+      "Chercheur·euse ou enseignant·e-chercheur·e d'un laboratoire du périmètre MSHS-T",
+      "Contrairement à l'APEX, **pas d'exigence que le porteur soit rattaché aux SHS** — l'exigence porte sur la nature interdisciplinaire du réseau, pas la discipline du porteur",
+      "Jusqu'à 2 responsables scientifiques possibles (vs 1 seul porteur pour l'APEX)"
+    ],
+    "conditions": [
+      "Le réseau doit impliquer plusieurs domaines des SHS et/ou associer SHS et autres sciences",
+      "**N'a pas vocation à financer ou compléter le financement de séminaires liés à des formations ou à l'animation d'équipe**",
+      "Dernière rencontre du réseau au plus tard le 15/11/2027",
+      "Lien possible (non obligatoire) avec l'un des 3 piliers TIRIS (santé-bien-être / changement et impact sociétaux / transitions durables)",
+      "**Dépenses éligibles exclusivement** : déplacements, hébergement, restauration liés aux rencontres du réseau",
+      "Engagements des lauréat·es : bilan scientifique + financier de fin de projet (31/03/N+1), résumé FR/EN de 10 lignes max, dépôt HAL recommandé, mention/logo « financé par la MSHS-T » obligatoire",
+      "Volet international possible : coportage avec la Maison Française d'Oxford (MFO) ou le CEMCA, montage à préparer en amont avec Eloïse Gransagne"
+    ],
+    "pieces": [
+      "Dossier de candidature (`MSHST_AAP_candidature_Workshop_2027.docx`), complété **et signé** : renseignements administratifs (1 ou 2 responsables), partie publique (résumé FR/EN, mots-clés), présentation scientifique en 6 points a→f, budget, validation du responsable + visa du directeur d'unité",
+      "**CV du porteur/de la porteuse** à joindre en \"pièces complémentaires\" (spécifique à cet appel, non requis pour l'APEX)",
+      "Dépôt exclusivement en ligne via la plateforme AGAPE (https://agape.univ-tlse2.fr/)"
+    ],
+    "notes": "⚠️ **Incohérence relevée dans le texte de l'appel** : la section « Gestion financière » indique un taux de consommation cible de 60 % « fin juin **2026** », alors que le projet démarre le 01/02/2027 (le texte APEX équivalent indique juin 2027). Vraisemblablement une coquille reprise d'un appel antérieur — à vérifier auprès de heloise.leloup@cnrs.fr avant de s'y fier. Même calendrier que l'APEX 2027 : lancement 08/09/2026 → clôture 15/10/2026 12h00 → notification 11/01/2027 → réunion des lauréat·es 21/01/2027 → démarrage 01/02/2027 → fin 30/11/2027 → restitution juin 2028 Comité de sélection : classement sur expertises scientifiques extérieures (au moins 2 par projet)"
+  },
+  {
+    "id": "2027_ut_best-cofund",
+    "titre": "BEST — programme doctoral MSCA COFUND",
+    "source": "Université de Toulouse — programme doctoral international MSCA COFUND « BEST » (Between Earth and Sky in Toulouse), cofinancé par l'UE (Horizon Europe, Marie Skłodowska-Curie Actions COFUND, appel 2025, convention n°101261439)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-04-13",
+    "date_cloture_sort": "2026-09-06",
+    "date_cloture_display": "6 septembre 2026 (vague 1 — rentrée 2027)",
+    "montant_table": "Contrat doctoral complet",
+    "montant_detail": "financement d'un contrat doctoral complet (salaire MSCA COFUND) par candidat·e sélectionné·e — pas de subvention distincte versée à l'équipe d'encadrement ; montant du contrat non détaillé sur la page consultée",
+    "thematiques": [
+      "Santé et bien-être",
+      "Changements globaux",
+      "Transitions durables"
+    ],
+    "recurrence": "programme à 2 vagues fixes, pas un appel qui se renouvelle indéfiniment : vague 1 = 19 thèses rentrée 2027 (dépôt sujets jusqu'au 06/09/2026) ; vague 2 = 18 thèses rentrée 2028 (processus de dépôt à partir de janvier 2027, infos à venir)",
+    "prochaine_echeance": "vague 2 (rentrée 2028) : démarrage du processus de dépôt à partir de janvier 2027, date limite non encore communiquée",
+    "contact": "best-helpdesk@utoulouse.fr (site du programme) ; best-helpdesk@univ-tlse3.fr (signature de contact figurant dans le mail du 06/07/2026 — vérifier laquelle est à jour)",
+    "lien": "https://doctorat.univ-toulouse.fr/cofund-best",
+    "objet": "BEST (« Between Earth and Sky in Toulouse ») est un **programme doctoral international, interdisciplinaire et intersectoriel** porté par l'Université de Toulouse et cofinancé par l'UE (Horizon Europe, MSCA COFUND). Il recrute **37 doctorant·e·s en codirection internationale** sur 2 cohortes (19 en 2027, 18 en 2028), autour de 3 piliers thématiques : Santé & bien-être, Changements globaux, Transitions durables (mobilités/énergies/ressources, focus aéronautique-spatial). Ce n'est pas un appel à projet de recherche classique : il s'agit de proposer un **sujet de thèse** qui, s'il est choisi par un·e candidat·e sélectionné·e, donne lieu à un contrat doctoral entièrement financé.",
+    "eligibles": [
+      "Encadrant·e·s rattaché·e·s à l'un des 11 établissements partenaires-employeurs : UT, UT Capitole, UT2J, ISAE, INP, INSA, IMT-MA, ENAC, INSERM, IRD, INRAE, **INUC** — cette dernière entrée correspond très probablement à l'INU Champollion (univ-jfc.fr), ce qui rendrait l'établissement éligible comme structure d'accueil ; à confirmer auprès de best-helpdesk avant de s'engager",
+      "Au moins un·e des deux directeur·rice·s (toulousain·e + international·e) doit être titulaire de l'HDR"
+    ],
+    "conditions": [
+      "**Codirection internationale obligatoire** (cotutelle encouragée mais facultative — une codirection sous simple convention est acceptée)",
+      "**Mobilité du doctorant obligatoire** chez le partenaire international, plafonnée à un tiers de la durée de thèse (max **1 an**) — critère imposé par la Commission européenne, non négociable",
+      "Composition attendue : 1 direction académique toulousaine + 1 co-direction internationale (+ optionnellement 1 co-direction du monde socio-économique)",
+      "Interdisciplinarité encouragée ; un·e directeur·rice peut déposer plusieurs sujets mais pas avec le même partenaire international",
+      "Contrainte MSCA COFUND sur les candidat·e·s (pas sur les encadrant·e·s) : ne doit pas avoir résidé en France plus de 12 mois au cours des 36 mois précédant la date limite de candidature",
+      "Aucune participation de l'équipe d'encadrement à la sélection finale des candidat·e·s",
+      "Dépôt et dossier **obligatoirement en anglais**, sur la plateforme ADUM",
+      "Si pas encore de partenaire international identifié : possibilité de déposer le sujet en précisant le type de collaboration recherchée — l'équipe BEST propose une mise en relation avant le webinaire de matchmaking (dernier a eu lieu le 18/06/2026 ; prochain webinaire de rentrée le 01/09/2026)",
+      "Un sujet non retenu à la vague 1 (2027) est automatiquement reconduit pour la vague 2 (2028), sauf retrait explicite du/de la déposant·e (précision reçue du comité recherche de l'université le 07/07/2026)",
+      "École des Docteurs de Toulouse fermée du 24 juillet au 23 août 2026 — un lien de dépôt alternatif a été communiqué pour ne pas interrompre les échanges avec les partenaires internationaux durant cette période (voir mail source)"
+    ],
+    "pieces": [
+      "Proposition de sujet + équipe d'encadrement, à déposer sur ADUM avant le **6 septembre 2026**",
+      "Formulaire de candidature/formulaire complémentaire BEST à télécharger sur le site du programme (accès non vérifié ici — probablement réservé à un compte ADUM/encadrant·e)",
+      "Formulaire partenaire international (si co-encadrant·e déjà identifié·e)",
+      "Guide de soumission pour compléter ADUM"
+    ],
+    "notes": "Détails de calendrier complet, piliers thématiques et FAQ récupérés sur la page officielle du programme (https://doctorat.univ-toulouse.fr/cofund-best), qui contient plus d'informations que les deux mails source pris isolément (notamment le nombre total de thèses, la liste des partenaires internationaux associés par pays, et les 2 vagues de recrutement)."
+  }
+]

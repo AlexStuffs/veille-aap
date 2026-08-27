@@ -211,6 +211,8 @@
     text-transform: uppercase;
     color: var(--ink-faint);
   }
+  .stat.has-tip { cursor: help; }
+  .stat.has-tip .n { text-decoration: underline dotted var(--ink-faint); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 
   /* ---------- Toolbar ---------- */
   .toolbar {
@@ -613,15 +615,19 @@
     var upcoming = DATA
       .filter(function (d) { return d.date_cloture_sort >= todayISO; })
       .sort(function (a, b) { return a.date_cloture_sort.localeCompare(b.date_cloture_sort); })[0];
+    var upcomingTitres = upcoming
+      ? DATA.filter(function (d) { return d.date_cloture_sort === upcoming.date_cloture_sort; })
+            .map(function (d) { return d.titre; })
+      : [];
 
     var stats = [
       { n: total, l: "Dispositifs suivis" },
       { n: surveiller, l: "À surveiller", accent: true },
       { n: passees, l: "Échéances passées" },
-      { n: upcoming ? fmtDate(upcoming.date_cloture_sort) : "—", l: upcoming ? "Prochaine échéance" : "Aucune échéance à venir" }
+      { n: upcoming ? fmtDate(upcoming.date_cloture_sort) : "—", l: upcoming ? "Prochaine échéance" : "Aucune échéance à venir", title: upcomingTitres.length ? upcomingTitres.join(" · ") : null }
     ];
     document.getElementById("stats").innerHTML = stats.map(function (s) {
-      return '<div class="stat"><div class="n' + (s.accent ? ' accent' : '') + '">' + s.n + '</div><div class="l">' + s.l + '</div></div>';
+      return '<div class="stat' + (s.title ? ' has-tip' : '') + '"' + (s.title ? ' title="' + escapeAttr(s.title) + '"' : '') + '><div class="n' + (s.accent ? ' accent' : '') + '">' + s.n + '</div><div class="l">' + s.l + '</div></div>';
     }).join("");
   }
 

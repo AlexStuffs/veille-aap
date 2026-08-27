@@ -37,6 +37,58 @@
     "notes": null
   },
   {
+    "id": "2026_ans_impact",
+    "titre": "Impact 2026 — Adaptation climatique, numérique, inclusion, aide humaine dans le parasport",
+    "source": "Agence nationale du Sport (ANS) — Note n°2026-DFT-04, avec MSJVA, CNOSF, CPSF, Ville de Paris, CD Seine-Saint-Denis",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-09-30",
+    "date_cloture_display": "30/09/2026 (date indicative, susceptible d'être modifiée)",
+    "montant_table": "≥ 20 000 € sur 3 ans (70 % max)",
+    "montant_detail": "Minimum 20 000 € de subvention demandée sur 3 ans ; plafond de cofinancement ANS à 70 % du budget prévisionnel du projet ; aide potentiellement dégressive (2027 et 2028 ne peuvent excéder 2026)",
+    "thematiques": [
+      "Adaptation au changement climatique",
+      "Transformation numérique",
+      "Inclusion de tous les publics",
+      "Santé mentale (Grande cause nationale 2026)",
+      "Aide humaine dans le parasport",
+      "Sport-santé"
+    ],
+    "recurrence": "annuelle (dispositif reconduit depuis 2020, « nouveau chapitre » pour l'édition 2026)",
+    "prochaine_echeance": "2027-09-30 (estimation par analogie avec le calendrier 2026 ; à confirmer à la publication de l'édition suivante)",
+    "contact": "impact@agencedusport.fr — 01 53 82 74 16 / 01 53 82 74 35 (contact recommandé avant tout dépôt pour valider l'éligibilité)",
+    "lien": "https://www.agencedusport.fr",
+    "objet": "Dispositif **Impact** de l'Agence nationale du Sport, actif depuis 2020 (plus de 8 000 projets accompagnés), refondu pour 2026 afin d'accompagner « les transitions majeures dans notre société ». Il soutient des projets **d'envergure, innovants et réplicables**, portés par un **consortium**, sur un financement pluriannuel 2026-2028.  Quatre thématiques éligibles (une seule suffit, plusieurs sont possibles) :  1. **Adapter les activités physiques et sportives au changement climatique** — en référence au Plan national d'adaptation des pratiques sportives (Pnacc Sport 2024-2030). Ce sont les actions d'**adaptation** qui sont visées ; les actions d'atténuation et de sobriété énergétique ne sont **pas** prioritaires. Exemples : adaptation des modalités de pratique et d'entraînement (gestion de la surfréquentation de créneaux), petits aménagements des lieux de pratique (zones ombragées), solidarité entre structures (mutualisation de matériel, de lieux, d'éducateurs) permettant de maintenir une offre quelles que soient les conditions météo. 2. **Répondre aux enjeux de la transformation numérique** — digitalisation de la gestion administrative, de la communication, de la valorisation des données, de l'organisation des activités. Exemples : outils numériques de suivi de la pratique ; expérimentation de solutions innovantes (IA, objets connectés, analyse de données). 3. **Accompagner l'inclusion de tous les publics dans les structures sportives** — lever les freins à la pratique, favoriser l'accueil, l'accompagnement et la **fidélisation** de publics éloignés ou sous-représentés. Dans le cadre de la **Grande cause nationale 2026, attention particulière aux initiatives ayant trait à la santé mentale**. Publics prioritaires de cet axe : personnes en situation de handicap, femmes et jeunes filles, seniors, habitants de zones géographiquement carencées. Exemples : créneaux adaptés ou nouvelles offres, **formation des bénévoles, dirigeants et éducateurs** à l'accueil de publics diversifiés, partenariats avec des établissements scolaires / médico-sociaux / sociaux, projet parasportif à l'échelle d'un bassin de vie, projets innovants de sport-santé. 4. **Soutenir l'aide humaine dans le parasport** — issu de la conférence permanente du parasport (2023). Finance les dispositifs palliant les besoins en aide humaine des personnes en situation de handicap les moins autonomes, avant, pendant et après la pratique (poste dédié d'accompagnement, transport accompagné, outils de mise en relation d'accompagnateurs, guides de course, pilotes de tandem, interprètes LSF, gratuité de licence des accompagnants bénévoles). Volet explicite sur les **aidants familiaux** : le texte reconnaît l'épuisement et le renoncement des aidants, et pose le sport comme **levier de répit** (activités parallèles pendant les séances, compensation de pertes de salaire d'un accompagnateur, programmes de formation, dispositifs clubs-familles).",
+    "eligibles": [
+      "Porteurs éligibles : organisation à but non lucratif ; collectivité territoriale ; établissement public à caractère administratif ; **établissement scolaire ou universitaire**.  Ne sont pas éligibles : organisations à but lucratif ; organisations à caractère politique ou religieux ; organisations de moins d'un an d'existence juridique ; organisations n'ayant pas transmis l'ensemble de leurs comptes rendus financiers pour des projets ANS financés de 2019 à 2025."
+    ],
+    "conditions": [
+      "**Consortium obligatoire** : au moins un partenaire en plus du porteur de projet. Un projet sans partenaire est inéligible. La liste doit nommer les partenaires **spécifiquement mobilisés pour le projet**, pas les partenaires pérennes de la structure.",
+      "Le projet doit **démarrer en 2026** et **se terminer avant le 30/06/2028**, sur le territoire français (Hexagone, DROM-COM).",
+      "Subvention demandée **≥ 20 000 € sur 3 ans** ; ANS à **70 % maximum** du budget prévisionnel — au moins 30 % à trouver ailleurs. Les projets **ne faisant pas appel à des fonds propres et privés ne seront pas prioritaires**.",
+      "Les projets présentant un **plan d'action sur trois ans (2026-2028)** sont prioritaires.",
+      "Le projet ne doit pas être déjà financé par un autre dispositif des partenaires de l'appel (ANS, MSJVA, CNOSF, CPSF, Ville de Paris, CD 93).",
+      "Échelle libre : local, départemental, régional ou national.",
+      "**Sont inéligibles** : projets à but lucratif ; projets dont l'unique objet est un événement isolé ; projets dont l'unique objet est la construction d'infrastructures ou l'achat d'équipements ; projets sans partenaire ; projets bénéficiant à un cercle restreint d'individus aux intérêts particuliers ; projets à dimension politique, religieuse ou de solidarité internationale ; **projets de recherche fondamentale** (la recherche **appliquée** reste éligible), projets individuels et/ou étudiants, actions ponctuelles et non durables (raids, voyages, galas, sponsoring), demandes de dons et lots publicitaires.",
+      "**Dépenses éligibles** : charges de personnel affectées au projet (avec modalités de calcul au prorata), frais de déplacement (transport, restauration, hébergement), frais de fonctionnement administratif, fournitures et petits équipements (**< 500 € HT l'unité**), prestations d'accompagnement, frais de communication.",
+      "**Dépenses inéligibles** : investissement (> 500 € HT l'unité), dépenses relevant d'autres projets de l'association, frais à l'international, politique sociale envers les personnels/bénévoles, frais de dépôt de candidature, coûts de fonctionnement réguliers non liés au projet.",
+      "**Critères de sélection prioritaires** : modèle économique assurant la pérennité (notamment mobilisation d'acteurs privés) ; déploiement sur 2 ou 3 ans ; caractère innovant ; réplicabilité et essaimage sur d'autres territoires ; partenariats clairement établis ; qualité du plan d'action (mutualisation des ressources, cohérence) ; calendrier clair ; **mesure d'impact du projet présentée** ; nombre de personnes touchées significatif au regard de la thématique.",
+      "**Publics cibles priorisés** (tous axes confondus) : personnes en situation de handicap ; femmes et jeunes filles ; jeunes ; habitants des QPV ; habitants des zones rurales fragilisées (ZRR ou bassins de vie à ≥ 50 % de population en ZRR).",
+      "Le maintien du financement en 2027 et 2028 est **conditionné à l'atteinte d'indicateurs fixés dans la convention initiale**, avec bilan annuel et budget actualisé à fournir."
+    ],
+    "pieces": [
+      "Statuts",
+      "Bilan financier n-1 et compte de résultat n-1",
+      "Budget 2026 **de l'association** (pas du projet) — à défaut, prévisionnel 2026 ou définitif 2025",
+      "RIB au nom de la structure (pas du président ni de la section), adresse cohérente avec le SIRET/RNA, avec IBAN",
+      "Rapport d'activité n-1",
+      "**Liste des partenaires du consortium**",
+      "**Plan d'actions 2026-2028**"
+    ],
+    "notes": "**Échéance très courte** : appel ouvert le 10/07/2026, clôture annoncée au 30/09/2026, soit environ cinq semaines à compter de la sollicitation. L'ANS recommande explicitement de contacter l'équipe Impact avant tout dépôt pour valider l'éligibilité — à faire en amont du montage, pas après. Le montage se fait sur Le Compte Asso (fiche 2311) : vérifier tôt que le club dispose d'un compte actif et à jour, l'ouverture et la validation des droits pouvant prendre du temps. Instruction régionale par la DRAJES avec appui du CROS : un contact préalable côté DRAJES/CROS peut aider à calibrer le projet. L'aide peut être **dégressive** : les montants 2027 et 2028 ne peuvent dépasser celui de 2026 — à intégrer dans la construction du budget triennal (charges de personnel concentrées en début de projet, par exemple)."
+  },
+  {
     "id": "2026_ao-master",
     "titre": "Bourses de stage Master TMBI",
     "source": "TMBI — Appel d'Offre Master TMBI 2026",
@@ -223,6 +275,56 @@
     "notes": "Échéance 2026 (7 mars) déjà dépassée à la date de veille."
   },
   {
+    "id": "2026_region-occitanie_emergence",
+    "titre": "EMERGENCE — Allocation doctorale, recherche exploratoire hors métropoles",
+    "source": "Région Occitanie — Appel à projets « EMERGENCE »",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-14",
+    "date_cloture_display": "14/11/2025 (édition 2026 — échéance passée) ; cofinancement à justifier au plus tard le 31/01/2026",
+    "montant_table": "50 000 € max (50 % de 100 000 €)",
+    "montant_detail": "50 % maximum des dépenses éligibles, plafonnées à 100 000 € par projet (soit 50 000 € max de subvention régionale) ; cofinancement obligatoire du reste",
+    "thematiques": [
+      "Recherche exploratoire",
+      "Interdisciplinarité",
+      "Pacte Vert Occitanie",
+      "Défis Clés régionaux"
+    ],
+    "recurrence": "annuelle (« campagne annuelle » explicitement mentionnée au cahier des charges)",
+    "prochaine_echeance": "2026-11-14 (estimation par analogie avec le calendrier de l'édition 2026, dépôt au 14/11/2025 ; à confirmer à la publication de l'édition 2027)",
+    "contact": "recherche-emergence@laregion.fr ; Yolande Barrenechea — 04 67 22 80 43",
+    "lien": "https://www.laregion.fr/pactevert",
+    "objet": "Contribuer au **ressourcement scientifique** de la recherche en Occitanie dans des domaines nouveaux ou peu explorés, en incitant aux collaborations interdisciplinaires, notamment en réponse aux défis du **Pacte Vert** régional. L'appel encourage la prise de risque scientifique et l'émergence de nouveaux champs de compétences visibles aux échelles nationale et internationale.  Concrètement : le dispositif finance des **projets de recherche exploratoires et/ou interdisciplinaires se déroulant hors métropoles, mobilisant un doctorant** — c'est-à-dire, en pratique, un cofinancement d'allocation doctorale.",
+    "eligibles": [
+      "Établissements publics d'enseignement supérieur et de recherche",
+      "Organismes de recherche",
+      "Établissements privés chargés de missions de service public sous convention avec l'État, dont la recherche est évaluée par le HCERES"
+    ],
+    "conditions": [
+      "Porteur scientifique appartenant à une unité de recherche **implantée en Occitanie**",
+      "**Thèse se déroulant hors métropoles** : hors Métropole de Toulouse, hors Métropole de Montpellier, hors SICOVAL. Pour un labo multi-sites, seul compte l'affectation du doctorant sur un site hors métropole",
+      "Caractère **exploratoire ou interdisciplinaire** aux échelles régionale/nationale/internationale : prise de risque, sujet novateur, nouvelles associations entre équipes, nouvelle méthodologie",
+      "Doctorant en **contrat de travail à temps complet** avec l'établissement bénéficiaire",
+      "Rémunération mensuelle brute au minimum conforme au décret MESR — **2 300 € brut/mois** pour les contrats conclus à partir du 01/01/2026",
+      "**Cofinancement obligatoire, acquis et formalisé** (annexe 3 ou document probant : lettre d'engagement, notification, acte attributif) au plus tard le **31/01/2026** pour l'édition 2026",
+      "Sources admises : fonds propres de l'établissement bénéficiaire et/ou tout organisme public ou privé tiers",
+      "**Inéligibles** : tout cofinancement Région, FEDER, ou relevant du dispositif CIFRE",
+      "Durée du projet : **3 ans minimum, 4 ans maximum**",
+      "Contrat doctoral **démarré avant la date de début du projet Emergence = inéligible** ; démarrage entre le 01/09/2026 et le 31/01/2027",
+      "Dépenses éligibles : **uniquement** salaires bruts chargés d'une allocation doctorale, sur 3 ans max",
+      "Critères de sélection : pertinence scientifique et retombées (alimentées par l'avis du/des directeur(s) d'unité) ; intérêt au regard des politiques régionales et des **Défis Clés** ; interclassement des coordinations de site ou des établissements (sollicité par la Région *après* dépôt, pas à fournir au moment du dossier)"
+    ],
+    "pieces": [
+      "Formulaire de demande de financement",
+      "Annexe 1 — Formulaire administratif",
+      "Annexe 2 — Plan de financement",
+      "Annexe 3 — Attestation de cofinancement (modèle joint, signé par le représentant légal de l'établissement bénéficiaire, avec cachet)",
+      "Pièces complémentaires indiquées dans le formulaire de demande"
+    ],
+    "notes": "**L'édition 2026 est close** : le dépôt était fixé au 14/11/2025 et l'attestation de cofinancement au 31/01/2026. La fiche est archivée pour préparer l'édition suivante — la campagne est annuelle, prochain dépôt estimé mi-novembre 2026. Point de vigilance principal pour un porteur INU Champollion : le site d'Albi est hors métropoles, donc **a priori éligible** — c'est plutôt le **cofinancement de 50 %** (≈ 50 000 € sur 3 ans, hors Région/FEDER/CIFRE) qui conditionne tout le montage, et il doit être formalisé très en amont du démarrage du contrat doctoral. Versement : acompte de 30 % maximum puis solde, proportionnel aux dépenses éligibles après instruction. Certificat d'inscription en 1re année + contrat doctoral exigés pour l'acompte. Engagements du bénéficiaire : entretiens annuels avec la Région sur toute la durée du projet, participation aux campagnes de communication communes et aux actions de médiation scientifique régionales, information de la Région en cas d'arrêt prématuré (le projet prend fin à la date d'arrêt du contrat doctoral)."
+  },
+  {
     "id": "2027_mshst_apex-exploratoires",
     "titre": "APEX — Appel à Projets Exploratoires",
     "source": "MSHS-T (Maison des Sciences Humaines et Sociales de Toulouse) — Appel à Projets Exploratoires (APEX)",
@@ -305,6 +407,51 @@
       "Dépôt exclusivement en ligne via la plateforme AGAPE (https://agape.univ-tlse2.fr/)"
     ],
     "notes": "⚠️ **Incohérence relevée dans le texte de l'appel** : la section « Gestion financière » indique un taux de consommation cible de 60 % « fin juin **2026** », alors que le projet démarre le 01/02/2027 (le texte APEX équivalent indique juin 2027). Vraisemblablement une coquille reprise d'un appel antérieur — à vérifier auprès de heloise.leloup@cnrs.fr avant de s'y fier. Même calendrier que l'APEX 2027 : lancement 08/09/2026 → clôture 15/10/2026 12h00 → notification 11/01/2027 → réunion des lauréat·es 21/01/2027 → démarrage 01/02/2027 → fin 30/11/2027 → restitution juin 2028 Comité de sélection : classement sur expertises scientifiques extérieures (au moins 2 par projet)"
+  },
+  {
+    "id": "2027_region-occitanie_diffusion-csti",
+    "titre": "Diffusion de la Culture Scientifique, Technique et Industrielle (CSTI)",
+    "source": "Région Occitanie — Appel à projets « Diffusion de la CSTI »",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-09-01",
+    "date_cloture_sort": "2026-11-13",
+    "date_cloture_display": "13 novembre 2026",
+    "montant_table": "30 000 € max (60 %, plafond 10 000 €/partenaire)",
+    "montant_detail": "Subvention régionale plafonnée à 60 % de l'assiette éligible et à 10 000 € par partenaire, dans la limite de 30 000 € pour le projet (taux respecté pour chaque partenaire). Aucun cofinancement par un autre dispositif régional accepté. Autofinancement minimum du maître d'ouvrage : 20 % (peut inclure subventions publiques de fonctionnement de la structure et recettes générées par le projet ; minoré en cas de financements privés). Avance de 50 % puis solde, versés au chef de file (reversement aux partenaires par convention).",
+    "thematiques": [
+      "\"Culture scientifique",
+      "technique et industrielle\"",
+      "Médiation scientifique",
+      "Esprit critique"
+    ],
+    "recurrence": "annuelle",
+    "prochaine_echeance": null,
+    "contact": "recherche-csti@laregion.fr ; Irène Ondarcuhu et Sylvie Duprat — 05 61 33 56 74 ou 05 61 39 67 41",
+    "lien": "https://www.laregion.fr/Appel-a-projets-diffusion-de-la-Culture-Scientifique-Technique-et-Industrielle-CSTI",
+    "objet": "Soutenir le développement d'actions de **diffusion de la CSTI** sur le territoire occitan, pour permettre au plus grand nombre d'accéder aux savoirs et de développer son esprit critique — dans un contexte présenté comme celui de la montée des discours populistes, de la désinformation et des restrictions budgétaires sur la recherche.  La Région cible des actions **innovantes ou comblant une lacune de l'offre territoriale** : émergence de nouvelles actions de proximité, décloisonnement de la CSTI vers d'autres domaines, initiatives ciblées sur un territoire, un public ou un format donné. S'inscrit dans l'ambition de la SRESRI que chaque jeune bénéficie d'au moins une expérience de CSTI au cours de sa scolarité.  Édition 2027 — campagne annuelle.",
+    "eligibles": [
+      "Associations dont l'objet porte en tout ou partie sur la diffusion de la CSTI",
+      "Établissements d'enseignement supérieur et/ou de recherche"
+    ],
+    "conditions": [
+      "**Partenariat avec un/des chercheurs en activité** dans une unité de recherche implantée en Occitanie, attesté par une lettre signée du chercheur (modèle joint au dossier)",
+      "Mise en place d'un **système de suivi/évaluation**",
+      "Pour les actions en milieu scolaire ou à destination des scolaires : soutien du rectorat vérifié via le comité de sélection (académies de Toulouse et Montpellier associées), pas de courrier spécifique requis — mais prise de contact en amont conseillée",
+      "Médiation **active** : implication du public, expérience interactive, immersive, ludique",
+      "Public visé **au moins en partie jeune/scolaire** — priorité aux projets ciblant ≥ 25 % de public scolaire",
+      "Durée du projet : **1 an** (18 mois max exceptionnellement, projets expérimentaux)",
+      "**Inéligibles** : projets se déroulant uniquement sur les métropoles de Toulouse et/ou Montpellier ; actions consistant exclusivement en formation, stages, découverte de métiers ou spectacles",
+      "Aucun cofinancement par un autre dispositif régional accepté",
+      "Dépenses éligibles : personnel direct (hors personnels permanents des établissements publics), forfait de 15 % de frais indirects sur les dépenses de personnel, autres dépenses directes (services, prestations, achats) ; bénévolat associatif valorisable dans la limite de 20 % de l'assiette (hors personnel salarié d'un partenaire)",
+      "Dépôt dématérialisé via la plateforme **Mes Aides en Ligne** — aucune suite donnée aux demandes hors délai"
+    ],
+    "pieces": [
+      "Dossier de candidature déposé sur [Mes Aides en Ligne](https://mesaidesenligne.laregion.fr/aides/#/croccitanie/connecte/F_DIIRES_CSTI/depot/simple)",
+      "Lettre signée du/des chercheur(s) partenaire(s) attestant leur activité en unité de recherche occitane (modèle fourni dans le dossier de candidature)",
+      "Le cas échéant, convention de partenariat et de reversement entre chef de file et partenaires (modalités de reversement de l'aide)"
+    ],
+    "notes": "Origine : mail liste `info.saps` du 26/08/2026 (transfert d'un mail de Nadia Pellefigue, Vice-Présidente Région Occitanie, du 20/08/2026), annonçant l'ouverture de l'édition 2027. Ouverture de la campagne : 1er septembre 2026 ; clôture des dépôts : 13 novembre 2026. Règlement complet consulté (`reglement_aap_diffusion_csti_2027.pdf`, joint dans ce dossier)."
   },
   {
     "id": "2027_ut_best-cofund",

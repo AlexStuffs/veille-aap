@@ -27,6 +27,8 @@
     --status-soumis-bg: #d9f0ec;
     --status-accepte: #2e7d1f;
     --status-accepte-bg: #dfefda;
+    --status-encours: #1d5fa8;
+    --status-encours-bg: #dde9f7;
     --status-refuse: #c0003a;
     --status-refuse-bg: #f8dbe4;
     --status-clos: #5c5f76;
@@ -63,6 +65,8 @@
       --status-soumis-bg: #0f322e;
       --status-accepte: #82d66d;
       --status-accepte-bg: #1c3013;
+      --status-encours: #7db3f0;
+      --status-encours-bg: #16283f;
       --status-refuse: #f293ae;
       --status-refuse-bg: #3a1420;
       --status-clos: #a3a6c2;
@@ -81,6 +85,7 @@
     --status-redaction: #e8c65a; --status-redaction-bg: #3a3010;
     --status-soumis: #5fd9c8; --status-soumis-bg: #0f322e;
     --status-accepte: #82d66d; --status-accepte-bg: #1c3013;
+    --status-encours: #7db3f0; --status-encours-bg: #16283f;
     --status-refuse: #f293ae; --status-refuse-bg: #3a1420;
     --status-clos: #a3a6c2; --status-clos-bg: #24264a;
   }
@@ -96,6 +101,7 @@
     --status-redaction: #8a6f00; --status-redaction-bg: #f7edc2;
     --status-soumis: #0f7d72; --status-soumis-bg: #d9f0ec;
     --status-accepte: #2e7d1f; --status-accepte-bg: #dfefda;
+    --status-encours: #1d5fa8; --status-encours-bg: #dde9f7;
     --status-refuse: #c0003a; --status-refuse-bg: #f8dbe4;
     --status-clos: #5c5f76; --status-clos-bg: #e6e6ee;
   }
@@ -587,6 +593,7 @@
     en_redaction: "En rédaction",
     soumis: "Soumis",
     accepte: "Accepté",
+    en_cours: "En cours",
     refuse: "Refusé",
     clos: "Clos"
   };
@@ -604,7 +611,7 @@
     return '<span class="pill" style="color:var(--status-' + statutColorKey(statut) + ');background:var(--status-' + statutColorKey(statut) + '-bg)">' + STATUT_LABEL[statut] + '</span>';
   }
   function statutColorKey(statut) {
-    return { a_surveiller: "surveiller", en_redaction: "redaction", soumis: "soumis", accepte: "accepte", refuse: "refuse", clos: "clos" }[statut];
+    return { a_surveiller: "surveiller", en_redaction: "redaction", soumis: "soumis", accepte: "accepte", en_cours: "encours", refuse: "refuse", clos: "clos" }[statut];
   }
 
   // ---------- Stats ----------
@@ -635,7 +642,7 @@
   var state = { q: "", statut: "all", type: "all" };
 
   function renderFilterChips() {
-    var statutOptions = ["all", "a_surveiller", "en_redaction", "soumis", "accepte", "refuse", "clos"];
+    var statutOptions = ["all", "a_surveiller", "en_redaction", "soumis", "accepte", "en_cours", "refuse", "clos"];
     document.getElementById("filter-statut").innerHTML = statutOptions.map(function (s) {
       var label = s === "all" ? "Tous statuts" : STATUT_LABEL[s];
       return '<button class="chip" data-filter="statut" data-value="' + s + '" aria-pressed="' + (state.statut === s) + '">' + label + '</button>';

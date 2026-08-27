@@ -656,7 +656,11 @@
   }
 
   function matches(d) {
-    if (state.statut !== "all" && d.statut !== state.statut) return false;
+    if (state.statut === "en_cours") {
+      if (d.date_cloture_sort < todayISO) return false;
+    } else if (state.statut !== "all" && d.statut !== state.statut) {
+      return false;
+    }
     if (state.type !== "all" && d.type !== state.type) return false;
     if (state.q) {
       var hay = (d.titre + " " + d.source + " " + d.thematiques.join(" ")).toLowerCase();

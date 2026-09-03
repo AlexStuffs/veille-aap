@@ -279,7 +279,7 @@
     "titre": "EMERGENCE — Allocation doctorale, recherche exploratoire hors métropoles",
     "source": "Région Occitanie — Appel à projets « EMERGENCE »",
     "type": "externe",
-    "statut": "a_surveiller",
+    "statut": "clos",
     "date_ouverture": null,
     "date_cloture_sort": "2026-11-14",
     "date_cloture_display": "14/11/2025 (édition 2026 — échéance passée) ; cofinancement à justifier au plus tard le 31/01/2026",
@@ -322,7 +322,7 @@
       "Annexe 3 — Attestation de cofinancement (modèle joint, signé par le représentant légal de l'établissement bénéficiaire, avec cachet)",
       "Pièces complémentaires indiquées dans le formulaire de demande"
     ],
-    "notes": "**L'édition 2026 est close** : le dépôt était fixé au 14/11/2025 et l'attestation de cofinancement au 31/01/2026. La fiche est archivée pour préparer l'édition suivante — la campagne est annuelle, prochain dépôt estimé mi-novembre 2026. Point de vigilance principal pour un porteur INU Champollion : le site d'Albi est hors métropoles, donc **a priori éligible** — c'est plutôt le **cofinancement de 50 %** (≈ 50 000 € sur 3 ans, hors Région/FEDER/CIFRE) qui conditionne tout le montage, et il doit être formalisé très en amont du démarrage du contrat doctoral. Versement : acompte de 30 % maximum puis solde, proportionnel aux dépenses éligibles après instruction. Certificat d'inscription en 1re année + contrat doctoral exigés pour l'acompte. Engagements du bénéficiaire : entretiens annuels avec la Région sur toute la durée du projet, participation aux campagnes de communication communes et aux actions de médiation scientifique régionales, information de la Région en cas d'arrêt prématuré (le projet prend fin à la date d'arrêt du contrat doctoral)."
+    "notes": "**Édition close, archivée** : le dépôt était fixé au 14/11/2025 et l'attestation de cofinancement au 31/01/2026. **Remplacée par la 5ème édition, [[2027_region-occitanie_emergence]]**, dépôt au 13/11/2026 (annonce reçue le 02/09/2026). Point de vigilance principal pour un porteur INU Champollion : le site d'Albi est hors métropoles, donc **a priori éligible** — c'est plutôt le **cofinancement de 50 %** (≈ 50 000 € sur 3 ans, hors Région/FEDER/CIFRE) qui conditionne tout le montage, et il doit être formalisé très en amont du démarrage du contrat doctoral. Versement : acompte de 30 % maximum puis solde, proportionnel aux dépenses éligibles après instruction. Certificat d'inscription en 1re année + contrat doctoral exigés pour l'acompte. Engagements du bénéficiaire : entretiens annuels avec la Région sur toute la durée du projet, participation aux campagnes de communication communes et aux actions de médiation scientifique régionales, information de la Région en cas d'arrêt prématuré (le projet prend fin à la date d'arrêt du contrat doctoral)."
   },
   {
     "id": "2027_mshst_apex-exploratoires",
@@ -452,6 +452,40 @@
       "Le cas échéant, convention de partenariat et de reversement entre chef de file et partenaires (modalités de reversement de l'aide)"
     ],
     "notes": "Origine : mail liste `info.saps` du 26/08/2026 (transfert d'un mail de Nadia Pellefigue, Vice-Présidente Région Occitanie, du 20/08/2026), annonçant l'ouverture de l'édition 2027. Ouverture de la campagne : 1er septembre 2026 ; clôture des dépôts : 13 novembre 2026. Règlement complet consulté (`reglement_aap_diffusion_csti_2027.pdf`, joint dans ce dossier)."
+  },
+  {
+    "id": "2027_region-occitanie_emergence",
+    "titre": "EMERGENCE — Allocation doctorale, recherche exploratoire hors métropoles",
+    "source": "Région Occitanie — Appel à projets « EMERGENCE » (5ème édition)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-13",
+    "date_cloture_display": "13 novembre 2026 inclus, sur la plateforme de la Région",
+    "montant_table": "50 000 € max (par analogie 2026, à confirmer)",
+    "montant_detail": "non précisé dans l'annonce — par analogie avec 2026 : 50 % maximum des dépenses éligibles, plafonnées à 100 000 € par projet (soit 50 000 € max de subvention régionale), cofinancement obligatoire du reste — à confirmer au cahier des charges 2027",
+    "thematiques": [
+      "Recherche exploratoire",
+      "Interdisciplinarité",
+      "Villes universitaires d'équilibre",
+      "Lutte contre les déterminismes sociaux et territoriaux"
+    ],
+    "recurrence": "annuelle (5ème édition explicitement mentionnée)",
+    "prochaine_echeance": null,
+    "contact": "recherche-emergence@laregion.fr ; relais local : Marion Coureau (marion.coureau@univ-jfc.fr) et Pauline",
+    "lien": "https://www.laregion.fr/Appel-a-projets-EMERGENCE",
+    "objet": "Cofinancer des **allocations doctorales mobilisées sur des programmes de recherche exploratoires**, dans le cadre de la Stratégie Régionale de l'Enseignement Supérieur, de la Recherche et de l'Innovation. La Région annonce le maintien du dispositif malgré un contexte budgétaire contraint, avec un **format déclaré identique à celui de 2026**. L'appel est recentré sur les **villes universitaires d'équilibre** (hors métropoles de Toulouse et Montpellier), en cohérence avec la lutte contre les déterminismes sociaux et territoriaux et les premiers schémas locaux ESRI.",
+    "eligibles": [
+      "Non détaillé dans l'annonce (renvoi au site de la Région pour le cahier des charges complet). Par analogie avec 2026 : établissements publics d'enseignement supérieur et de recherche, organismes de recherche, établissements privés sous convention avec l'État évalués par le HCERES — à confirmer."
+    ],
+    "conditions": [
+      "Le mail de lancement ne détaille pas les conditions ; il renvoie au cahier des charges sur https://www.laregion.fr/Appel-a-projets-EMERGENCE (à consulter avant tout montage de dossier)",
+      "Par analogie avec l'édition 2026 (format déclaré identique) : thèse hors métropoles de Toulouse/Montpellier/SICOVAL, caractère exploratoire ou interdisciplinaire, cofinancement obligatoire acquis et formalisé, doctorant en contrat à temps complet — **à vérifier au cahier des charges 2027**, non encore récupéré"
+    ],
+    "pieces": [
+      "Non précisé dans l'annonce — voir cahier des charges sur le site de la Région"
+    ],
+    "notes": "Annonce reçue le 02/09/2026 par transfert de Marion Coureau (relais local), à partir du mail régional du 28/08/2026 (Nadia Pellefigue, Région Occitanie). **5ème édition** de l'appel Emergence — confirme le caractère annuel déjà noté sur l'édition 2026 (cf. [[2026_region-occitanie_emergence]], désormais close). Aucun cahier des charges ni annexe n'était joint au mail (uniquement des images de signature) : le détail des conditions, montants et pièces à fournir reste à récupérer sur https://www.laregion.fr/Appel-a-projets-EMERGENCE avant tout montage de dossier — les champs ci-dessus repris « par analogie 2026 » ne sont pas vérifiés sur un document 2027. Seule donnée ferme du mail : date limite de dépôt **13 novembre 2026 inclus**, sur la plateforme de la Région."
   },
   {
     "id": "2027_ut_best-cofund",

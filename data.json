@@ -127,6 +127,48 @@
     "notes": "L'appel indique que le TMBI « renouvelle » cette bourse — probable édition annuelle. À resurveiller courant 2027 pour une prochaine édition (date d'ouverture non précisée dans ce document, la clôture 2026 tombait fin juin). Critères d'évaluation : originalité du projet + interdisciplinarité, qualité de la rédaction, faisabilité (6 mois max, perspectives doctorat ou autre), priorité aux nouvelles collaborations sans financement existant Comité de sélection : CoPil du TMBI"
   },
   {
+    "id": "2026_drees_requestionner-sante-mentale",
+    "titre": "Requestionner la santé mentale : des souffrances psychiques aux conduites suicidaires",
+    "source": "Drees — Mission recherche (MiRe), en partenariat avec l'Observatoire national du suicide (ONS) et l'Injep",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-30",
+    "date_cloture_display": "30/11/2026 à midi (heure de Paris)",
+    "montant_table": "20 000 – 100 000 €",
+    "montant_detail": "20 000 à 100 000 € par projet (subvention, TVA non applicable) ; frais de gestion 4 % maximum du coût complet",
+    "thematiques": [
+      "Souffrances psychiques",
+      "Conduites suicidaires",
+      "\"Trajectoires biographiques",
+      "déterminants sociaux et violences\"",
+      "Institutions et socialisation",
+      "Politiques et pratiques psychiatriques"
+    ],
+    "recurrence": "inconnue",
+    "prochaine_echeance": null,
+    "contact": "drees-mire@sante.gouv.fr",
+    "lien": "https://drees.solidarites-sante.gouv.fr/appel-projet/appel-projet-de-recherche-requestionner-la-sante-mentale",
+    "objet": "Appel à projets de recherche (APR) de la Mission recherche de la Drees, avec l'ONS et l'Injep, visant à faire émerger des connaissances éclairant les évolutions contemporaines des souffrances psychiques et des conduites suicidaires. Les phénomènes sont à analyser dans leur diversité : dimensions individuelles, biographiques, sociales, historiques, institutionnelles, économiques et environnementales, ainsi que l'évolution des représentations, des pratiques et des dispositifs de prévention et de soin.  Trois axes thématiques :  1. <strong>Trajectoires biographiques, déterminants sociaux et violences</strong> 2. <strong>Institutions et socialisation</strong> 3. <strong>Politiques et pratiques psychiatriques</strong>",
+    "eligibles": [
+      "Chercheurs et chercheuses de <strong>toutes les disciplines de sciences humaines et sociales</strong> (droit, économie, sociologie, psychologie, géographie, démographie, science politique, histoire, anthropologie, etc.). Les projets <strong>interdisciplinaires</strong> sont encouragés, de même que les projets <strong>collaboratifs</strong> (recherche-action, recherche participative).  Le responsable scientifique doit être titulaire d'un doctorat et membre de l'organisme porteur, qui doit être un organisme de recherche (université, cabinet d'études, association, fondation, etc.)."
+    ],
+    "conditions": [
+      "Un responsable scientifique ne peut porter qu'un seul projet ; les membres d'équipe ne peuvent participer qu'à un seul projet.",
+      "Durée maximale du projet : 24 mois.",
+      "Dépenses finançables : personnel temporaire, prestation externe, frais de mission, fonctionnement, valorisation.",
+      "Non finançables : coûts fixes, rémunération de chercheurs titulaires de la fonction publique, décharges de cours.",
+      "Webinaire d'information : 1er octobre 2026 à 10h."
+    ],
+    "pieces": [
+      "Dossier en ligne sur le portail dédié",
+      "CV",
+      "Grille budgétaire (Excel)",
+      "Pièces administratives selon le statut de l'organisme"
+    ],
+    "notes": "Fiche créée le 21/09/2026 à partir du mail de la liste info.saps (M. Bouyssières, service SAPS, COMUE de Toulouse, reçu le 18/09/2026) et de la page officielle de l'appel. Le mail ne donne que l'objet et la date limite ; les autres champs viennent de la page officielle, consultée à cette date. Le cahier des charges détaillé (PDF) n'a pas été consulté : à lire avant tout montage, en particulier pour les critères de sélection et la grille budgétaire. Échéance : environ 10 semaines à compter du mail."
+  },
+  {
     "id": "2026_inuc_bqr",
     "titre": "BQR — Bonus Qualité Recherche",
     "source": "INU Champollion — Direction de la recherche (Bonus Qualité Recherche, dispositif interne financé par prélèvement sur les contrats de recherche gérés par l'établissement)",

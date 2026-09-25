@@ -27,8 +27,6 @@
     --status-soumis-bg: #d9f0ec;
     --status-accepte: #2e7d1f;
     --status-accepte-bg: #dfefda;
-    --status-encours: #1d5fa8;
-    --status-encours-bg: #dde9f7;
     --status-refuse: #c0003a;
     --status-refuse-bg: #f8dbe4;
     --status-clos: #5c5f76;
@@ -65,8 +63,6 @@
       --status-soumis-bg: #0f322e;
       --status-accepte: #82d66d;
       --status-accepte-bg: #1c3013;
-      --status-encours: #7db3f0;
-      --status-encours-bg: #16283f;
       --status-refuse: #f293ae;
       --status-refuse-bg: #3a1420;
       --status-clos: #a3a6c2;
@@ -85,7 +81,6 @@
     --status-redaction: #e8c65a; --status-redaction-bg: #3a3010;
     --status-soumis: #5fd9c8; --status-soumis-bg: #0f322e;
     --status-accepte: #82d66d; --status-accepte-bg: #1c3013;
-    --status-encours: #7db3f0; --status-encours-bg: #16283f;
     --status-refuse: #f293ae; --status-refuse-bg: #3a1420;
     --status-clos: #a3a6c2; --status-clos-bg: #24264a;
   }
@@ -101,7 +96,6 @@
     --status-redaction: #8a6f00; --status-redaction-bg: #f7edc2;
     --status-soumis: #0f7d72; --status-soumis-bg: #d9f0ec;
     --status-accepte: #2e7d1f; --status-accepte-bg: #dfefda;
-    --status-encours: #1d5fa8; --status-encours-bg: #dde9f7;
     --status-refuse: #c0003a; --status-refuse-bg: #f8dbe4;
     --status-clos: #5c5f76; --status-clos-bg: #e6e6ee;
   }
@@ -217,8 +211,6 @@
     text-transform: uppercase;
     color: var(--ink-faint);
   }
-  .stat.has-tip { cursor: help; }
-  .stat.has-tip .n { text-decoration: underline dotted var(--ink-faint); text-decoration-thickness: 1px; text-underline-offset: 4px; }
 
   /* ---------- Toolbar ---------- */
   .toolbar {
@@ -593,7 +585,6 @@
     en_redaction: "En rédaction",
     soumis: "Soumis",
     accepte: "Accepté",
-    en_cours: "En cours",
     refuse: "Refusé",
     clos: "Clos"
   };
@@ -611,7 +602,7 @@
     return '<span class="pill" style="color:var(--status-' + statutColorKey(statut) + ');background:var(--status-' + statutColorKey(statut) + '-bg)">' + STATUT_LABEL[statut] + '</span>';
   }
   function statutColorKey(statut) {
-    return { a_surveiller: "surveiller", en_redaction: "redaction", soumis: "soumis", accepte: "accepte", en_cours: "encours", refuse: "refuse", clos: "clos" }[statut];
+    return { a_surveiller: "surveiller", en_redaction: "redaction", soumis: "soumis", accepte: "accepte", refuse: "refuse", clos: "clos" }[statut];
   }
 
   // ---------- Stats ----------
@@ -622,19 +613,15 @@
     var upcoming = DATA
       .filter(function (d) { return d.date_cloture_sort >= todayISO; })
       .sort(function (a, b) { return a.date_cloture_sort.localeCompare(b.date_cloture_sort); })[0];
-    var upcomingTitres = upcoming
-      ? DATA.filter(function (d) { return d.date_cloture_sort === upcoming.date_cloture_sort; })
-            .map(function (d) { return d.titre; })
-      : [];
 
     var stats = [
       { n: total, l: "Dispositifs suivis" },
       { n: surveiller, l: "À surveiller", accent: true },
       { n: passees, l: "Échéances passées" },
-      { n: upcoming ? fmtDate(upcoming.date_cloture_sort) : "—", l: upcoming ? "Prochaine échéance" : "Aucune échéance à venir", title: upcomingTitres.length ? upcomingTitres.join(" · ") : null }
+      { n: upcoming ? fmtDate(upcoming.date_cloture_sort) : "—", l: upcoming ? "Prochaine échéance" : "Aucune échéance à venir" }
     ];
     document.getElementById("stats").innerHTML = stats.map(function (s) {
-      return '<div class="stat' + (s.title ? ' has-tip' : '') + '"' + (s.title ? ' title="' + escapeAttr(s.title) + '"' : '') + '><div class="n' + (s.accent ? ' accent' : '') + '">' + s.n + '</div><div class="l">' + s.l + '</div></div>';
+      return '<div class="stat"><div class="n' + (s.accent ? ' accent' : '') + '">' + s.n + '</div><div class="l">' + s.l + '</div></div>';
     }).join("");
   }
 
@@ -642,7 +629,7 @@
   var state = { q: "", statut: "all", type: "all" };
 
   function renderFilterChips() {
-    var statutOptions = ["all", "a_surveiller", "en_redaction", "soumis", "accepte", "en_cours", "refuse", "clos"];
+    var statutOptions = ["all", "a_surveiller", "en_redaction", "soumis", "accepte", "refuse", "clos"];
     document.getElementById("filter-statut").innerHTML = statutOptions.map(function (s) {
       var label = s === "all" ? "Tous statuts" : STATUT_LABEL[s];
       return '<button class="chip" data-filter="statut" data-value="' + s + '" aria-pressed="' + (state.statut === s) + '">' + label + '</button>';
@@ -656,11 +643,7 @@
   }
 
   function matches(d) {
-    if (state.statut === "en_cours") {
-      if (d.date_cloture_sort < todayISO) return false;
-    } else if (state.statut !== "all" && d.statut !== state.statut) {
-      return false;
-    }
+    if (state.statut !== "all" && d.statut !== state.statut) return false;
     if (state.type !== "all" && d.type !== state.type) return false;
     if (state.q) {
       var hay = (d.titre + " " + d.source + " " + d.thematiques.join(" ")).toLowerCase();

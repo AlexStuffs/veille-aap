@@ -167,8 +167,13 @@
       "Webinaire d'information : 1er octobre 2026 à 10h"
     ],
     "pieces": [
-      "Dossier de réponse au <strong>format Word</strong> et budget au <strong>format Excel</strong> (modèles « Dossier de réponse » et « Annexe financière » sur la page de l'appel), avec les pièces justificatives",
-      "CV des membres de l'équipe",
+      "<strong>Dossier de réponse au format Word</strong> (<code>2026_drees_dossier-reponse.doc</code>) : résumé (1 200 signes maximum), projet de recherche (français, 40 000 signes maximum espaces compris : contexte et état des connaissances, objectifs, hypothèses, méthodes, calendrier, valorisation visée, composition de l'équipe, bibliographie), fiches équipe, annexe financière",
+      "<strong>Budget au format Excel</strong> (<code>2026_drees_annexe-financiere.xls</code>) : coût complet du projet et participation demandée ; la rémunération des personnels permanents n'est pas prise en charge pour les établissements publics de recherche et les universités ; frais de gestion = (A+B+C+D) × 0,04 au maximum",
+      "<strong>CV et principales publications</strong> adaptés à l'objet, du responsable et de chaque participant (1 page maximum par personne)",
+      "<strong>Signatures</strong> du responsable scientifique et du directeur de l'organisme de recherche (une page par équipe participante)",
+      "<strong>Attestation sur l'honneur</strong> que l'organisme remplit les conditions d'éligibilité (but premier de recherche et diffusion des résultats)",
+      "Pour un organisme hors association : copie de tout texte officiel prouvant le statut, extrait K-bis le cas échéant, <strong>RIB</strong>",
+      "Courriel <strong>nominatif</strong> de la personne habilitée à engager l'organisme (adresse générique refusée, signature électronique de la convention)",
       "Envoi <strong>par courriel</strong> à drees-mire@sante.gouv.fr avant le 30/11/2026 à midi"
     ],
     "notes": "Fiche créée le 21/09/2026 à partir du mail de la liste info.saps (M. Bouyssières, service SAPS, COMUE de Toulouse, reçu le 18/09/2026) et de la page officielle de l'appel. Complétée le 25/09/2026 après lecture intégrale du texte de l'appel (<code>Dossier et texte APR_Souffrances psychiques conduites suicidaires_vf.docx</code>, joint dans ce dossier). <strong>Correction</strong> : le dépôt se fait par courriel, et non sur un portail en ligne comme l'indiquait la version précédente de la fiche. <strong>Précisions intégrées</strong> : 0,3 ETP minimum du responsable, centralité des SHS, critères d'exclusion et de sélection, calendrier de versement, obligations de rapport et journées d'étude, intitulés officiels des trois axes. Le texte de l'appel ne mentionne ni le montant minimal (20 000 €), ni les frais de gestion, ni l'exigence du doctorat, ni les CV : ces points viennent de la FAQ de la page de l'appel, consultée le 25/09/2026. Aucune contradiction entre les deux sources."
@@ -178,7 +183,7 @@
     "titre": "BQR — Bonus Qualité Recherche",
     "source": "INU Champollion — Direction de la recherche (Bonus Qualité Recherche, dispositif interne financé par prélèvement sur les contrats de recherche gérés par l'établissement)",
     "type": "interne",
-    "statut": "a_surveiller",
+    "statut": "clos",
     "date_ouverture": null,
     "date_cloture_sort": "2026-01-09",
     "date_cloture_display": "9 janvier 2026 (volet 2 — stage M2) ; 7 mars 2026 (volets 1 et 3)",
@@ -214,7 +219,7 @@
     "titre": "AAP Équipement",
     "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
     "type": "interne",
-    "statut": "a_surveiller",
+    "statut": "clos",
     "date_ouverture": null,
     "date_cloture_sort": "2026-03-07",
     "date_cloture_display": "7 mars 2026",
@@ -253,7 +258,7 @@
     "titre": "AAP International",
     "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
     "type": "interne",
-    "statut": "a_surveiller",
+    "statut": "clos",
     "date_ouverture": null,
     "date_cloture_sort": "2026-03-07",
     "date_cloture_display": "7 mars 2026",
@@ -370,6 +375,119 @@
       "Pièces complémentaires indiquées dans le formulaire de demande"
     ],
     "notes": "<strong>Édition close, archivée</strong> : le dépôt était fixé au 14/11/2025 et l'attestation de cofinancement au 31/01/2026. <strong>Remplacée par la 5ème édition, 2027_region-occitanie_emergence</strong>, dépôt au 13/11/2026 (annonce reçue le 02/09/2026). Point de vigilance principal pour un porteur INU Champollion : le site d'Albi est hors métropoles, donc <strong>a priori éligible</strong> — c'est plutôt le <strong>cofinancement de 50 %</strong> (≈ 50 000 € sur 3 ans, hors Région/FEDER/CIFRE) qui conditionne tout le montage, et il doit être formalisé très en amont du démarrage du contrat doctoral. Versement : acompte de 30 % maximum puis solde, proportionnel aux dépenses éligibles après instruction. Certificat d'inscription en 1re année + contrat doctoral exigés pour l'acompte. Engagements du bénéficiaire : entretiens annuels avec la Région sur toute la durée du projet, participation aux campagnes de communication communes et aux actions de médiation scientifique régionales, information de la Région en cas d'arrêt prématuré (le projet prend fin à la date d'arrêt du contrat doctoral)."
+  },
+  {
+    "id": "2027_inuc_bqr",
+    "titre": "BQR — Bonus Qualité Recherche",
+    "source": "INU Champollion — Direction de la recherche (Bonus Qualité Recherche, dispositif interne financé par prélèvement sur les contrats de recherche gérés par l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-30",
+    "date_cloture_display": "30 novembre 2026 à 19h (les trois volets) — texte de l'AAP BQR 2027",
+    "montant_table": "Jusqu'à 8 500 €",
+    "montant_detail": "Volet 1 (manifestations scientifiques) : 7 500 € au total. Volet 2 (stage M2) : 4 000 €, un seul lauréat (gratification + fonctionnement). Volet 3 (projets pluridisciplinaires avec un laboratoire de l'Université de Toulouse ou international) : 8 500 € maximum au total",
+    "thematiques": [
+      "Manifestations scientifiques",
+      "Stage M2",
+      "Pluridisciplinaire"
+    ],
+    "recurrence": "annuelle (le texte précise « Les lauréats sont sélectionnés chaque année »)",
+    "prochaine_echeance": "~fin novembre 2027 pour l'édition 2028 (estimé, à vérifier)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "<strong>Volet 1</strong> : organisation de manifestations scientifiques à l'INU Champollion (7 500 € au total) <strong>Volet 2</strong> : financement d'un stage de master 2 — gratification + part de fonctionnement (4 000 €, un seul lauréat) <strong>Volet 3</strong> : projets de recherche pluridisciplinaires en partenariat avec des laboratoires de l'Université de Toulouse ou internationaux (8 500 € maximum pour l'ensemble du volet)",
+    "eligibles": [
+      "Tout membre permanent de l'INU Champollion, quel que soit son domaine de recherche."
+    ],
+    "conditions": [
+      "Conformité avec la politique de recherche et les axes stratégiques de l'établissement, puis critères : projet collectif, collaboratif aux interfaces disciplinaires, intérêt scientifique, présence ou non de cofinancements, retombées pour l'INU Champollion",
+      "Financement non reconductible de droit, ne doit pas compléter indirectement la dotation récurrente d'une entité",
+      "Dépenses facturées avant le 31 décembre 2027, conformément à l'attribution",
+      "<strong>Audition obligatoire</strong> le 10 décembre 2026 après-midi (salle du conseil) : présentation du projet et échange avec la Commission Recherche — condition de recevabilité du dossier"
+    ],
+    "pieces": [
+      "Dossier de candidature sur le template du volet, renvoyé en PDF à direction.recherche@univ-jfc.fr avant le 30 novembre 2026 à 19h",
+      "<strong>Volet 1</strong> (manifestation) : nom, dates et lieu, porteurs, type de manifestation (500 car.), résumé (1 500 car.), objectif (1 000), objectifs scientifiques (300), originalité (1 000), dimension interdisciplinaire/inter-institutionnelle (500), bénéfices pour l'entité (500), retombées INUC (1 000), action vers le grand public (1 000), tableau d'organisation et budget avec cofinancements",
+      "<strong>Volet 2</strong> (stage M2) : encadrement, résumé (1 500 car.), objectif (500), objectifs scientifiques du stage (300), originalité (1 000), interdisciplinarité (500), diagramme de Gantt, bénéfices (500), retombées INUC (1 000), budget avec cofinancements",
+      "<strong>Volet 3</strong> (partenariat) : porteurs et partenaires, type de partenariat envisagé à court et long terme (1 500 car.), résumé (1 500), objectif (1 000), objectifs scientifiques (300), originalité (1 500), complémentarité avec le partenaire (1 000), interdisciplinarité (500), diagramme de Gantt, bénéfices (500), retombées INUC (1 000), budget avec bénéficiaires nommés en cas de transport",
+      "Dossier de synthèse (4 pages max) remis au service d'appui à la recherche : 30 jours après la manifestation (volet 1), 30 jours après la fin du stage (volet 2), 6 mois après le démarrage du partenariat (volet 3)"
+    ],
+    "notes": "Édition précédente : 2026_inuc_bqr (pistes volet 2 et volet 3 déjà repérées dans sa section Pertinence). Changement de calendrier par rapport à 2026 : dépôt unique au 30 novembre 2026 pour les trois volets (en 2026 : 9 janvier pour le volet 2, 7 mars pour les volets 1 et 3), audition le 10 décembre 2026."
+  },
+  {
+    "id": "2027_inuc_equipement",
+    "titre": "AAP Équipement",
+    "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-30",
+    "date_cloture_display": "30 novembre 2026 à 19h — texte de l'AAP Équipement 2027",
+    "montant_table": "20 000 € (enveloppe)",
+    "montant_detail": "20 000 € au total (crédits d'investissement) ; montant par lauréat non précisé",
+    "thematiques": [
+      "Transversal",
+      "Équipement"
+    ],
+    "recurrence": "annuelle (le texte précise « Les lauréats sont sélectionnés chaque année »)",
+    "prochaine_echeance": "~fin novembre 2027 pour l'édition 2028 (estimé, à vérifier)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "Dispositif interne de l'INU Champollion qui finance, par des crédits d'investissement sur le budget propre de l'établissement, l'acquisition ou le renouvellement de matériel de recherche. Enveloppe 2027 : 20 000 €. Les demandes sont formulées en 2026 pour une réalisation en 2027.",
+    "eligibles": [
+      "Porteur : tout <strong>responsable d'entité de recherche</strong> de l'INU Champollion",
+      "Exclusivement des <strong>équipements</strong>"
+    ],
+    "conditions": [
+      "Critères : intégration dans les axes stratégiques de l'établissement, projet collectif, intérêt scientifique de l'équipement, présence ou non de cofinancements, retombées pour l'entité et pour l'INU Champollion",
+      "Si l'entité présente plusieurs demandes, son responsable fournit un classement motivé par ordre de priorité",
+      "Achats facturés avant le 31 décembre 2027",
+      "<strong>Audition obligatoire</strong> le 10 décembre 2026 après-midi (salle du conseil) — condition de recevabilité du dossier"
+    ],
+    "pieces": [
+      "Dossier sur le template, renvoyé en PDF à direction.recherche@univ-jfc.fr avant le 30 novembre 2026 à 19h : type d'équipement (1 000 car. + photo), utilisations envisagées (1 500), spécificités (500), objectifs scientifiques (300), retombées pour l'entité et l'INUC (1 000), budget et cofinancements avec devis, coûts de maintenance prévisionnels et leur financement (500), tableau indiquant le nombre de bénéficiaires et la mutualisation possible avec une autre entité"
+    ],
+    "notes": "Édition précédente : 2026_inuc_equipement (piste fNIRS repérée dans sa section Pertinence). Changements par rapport à 2026 : dépôt au 30 novembre 2026 (au lieu du 7 mars), enveloppe désormais chiffrée (20 000 €), audition le 10 décembre 2026."
+  },
+  {
+    "id": "2027_inuc_international",
+    "titre": "AAP International",
+    "source": "INU Champollion — Direction de la recherche (dispositif interne, budget propre de l'établissement)",
+    "type": "interne",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-11-30",
+    "date_cloture_display": "30 novembre 2026 à 19h (les deux volets) — texte de l'AAP International 2027",
+    "montant_table": "2 000 € / 2 500 € par projet",
+    "montant_detail": "Volet 1 (mobilité unilatérale sortante) : 8 000 € au total, au moins 4 projets, 2 000 € max par projet. Volet 2 (mobilité bilatérale réciproque) : 10 000 € au total, 2 500 € max par lauréat",
+    "thematiques": [
+      "International",
+      "Mobilité"
+    ],
+    "recurrence": "probable (même calendrier que les autres AAP internes, mais non qualifié explicitement d'annuel dans le texte)",
+    "prochaine_echeance": "~fin novembre 2027 pour l'édition 2028 (estimé, à vérifier)",
+    "contact": "direction.recherche@univ-jfc.fr",
+    "lien": null,
+    "objet": "<strong>Volet 1 — Mobilité unilatérale</strong> : mobilité sortante de 7 à 15 jours d'un chercheur INUC dans un laboratoire étranger (voyage, séjour, initiation du projet), 2 000 € max par projet <strong>Volet 2 — Mobilité bilatérale réciproque</strong> : séjour d'environ une semaine du chercheur INUC dans le laboratoire étranger, puis d'environ une semaine du chercheur étranger sur un campus de l'INUC, 2 500 € max par lauréat",
+    "eligibles": [
+      "Porteur : tout chercheur permanent de l'INU Champollion, quel que soit son domaine",
+      "Sujet de recherche commun avec un chercheur d'un organisme de recherche ou d'une université à l'étranger",
+      "Laboratoire d'accueil reconnu dans son champ disciplinaire",
+      "Aucune condition géographique (les deux volets)"
+    ],
+    "conditions": [
+      "Volet 1 : demande de 2 000 € max, cofinancement extérieur possible. Critères : qualité scientifique du projet et du laboratoire d'accueil, intérêt pédagogique, clarté des objectifs, retombées pour l'entité et l'INUC, perspectives de collaboration internationale en recherche et en formation",
+      "Volet 2 : demande de 2 500 € max, cofinancement extérieur possible ; le chercheur étranger s'engage à donner un séminaire (FR ou EN) à l'INUC pendant son séjour. Critères : projet collaboratif, intérêt scientifique, cofinancements, collaboration nouvelle ou existante, retombées pour l'entité et l'INUC, perspectives internationales",
+      "Dépenses facturées avant le 31 décembre 2027",
+      "<strong>Audition obligatoire</strong> le 10 décembre 2026 après-midi (salle du conseil) — condition de recevabilité du dossier"
+    ],
+    "pieces": [
+      "Dossier sur le template du volet, renvoyé en PDF à direction.recherche@univ-jfc.fr avant le 30 novembre 2026 à 19h. Les deux templates ont la même structure : porteurs et chercheurs partenaires, résumé (1 500 car.), objectif (1 000), thématique centrale (300), description de la collaboration et du partenariat envisagé (1 500), originalité (1 500), complémentarité avec le partenaire (1 000), perspectives (500), programme et calendrier (Gantt), bénéfices pour le chercheur (500) et pour l'entité (500), retombées INUC (1 000), budget avec bénéficiaires nommés, demandes ayant un impact sur les services de l'INUC",
+      "Annexes : CV du chercheur étranger, lettre d'intention du laboratoire étranger (1 page max)",
+      "Dossier de synthèse après la mobilité (volet 1 : 3 pages max, dans les 30 jours ; volet 2 : dans les 30 jours après la mobilité réciproque), co-rédigé avec le laboratoire d'accueil, avec une partie rédigée par le chercheur étranger"
+    ],
+    "notes": "Édition précédente : 2026_inuc_international. Changements par rapport à 2026 : le volet « chercheur invité » disparaît, remplacé par un volet 1 de mobilité unilatérale sortante ; la mobilité bilatérale devient le volet 2 ; la condition géographique (Europe ou Afrique du Nord) est supprimée ; dépôt au 30 novembre 2026 et audition le 10 décembre 2026. Le texte 2027 comporte des formulations à faire confirmer par la Direction de la recherche (estimé, à vérifier)."
   },
   {
     "id": "2027_mshst_apex-exploratoires",

@@ -268,7 +268,7 @@
   .table-wrap {
     border: 1px solid var(--line);
     border-radius: 10px;
-    overflow: hidden;
+    overflow-x: auto;
     background: var(--paper-raised);
   }
   table { width: 100%; border-collapse: collapse; }
@@ -309,7 +309,7 @@
     color: var(--ink-faint);
     margin-top: 4px;
   }
-  .col-date { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: 13px; white-space: nowrap; }
+  .col-date { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-size: 13px; min-width: 130px; max-width: 220px; }
   .date-passed { color: var(--ink-faint); text-decoration: line-through; text-decoration-color: var(--line); }
   .date-flag {
     display: inline-block; margin-left: 6px;
@@ -317,8 +317,8 @@
     padding: 1px 6px; border-radius: 999px;
     background: var(--status-clos-bg); color: var(--status-clos);
   }
-  .col-montant { font-family: var(--font-mono); font-size: 13px; white-space: nowrap; }
-  .col-theme { max-width: 220px; }
+  .col-montant { font-family: var(--font-mono); font-size: 13px; min-width: 120px; max-width: 200px; }
+  .col-theme { min-width: 160px; max-width: 220px; }
   .theme-tag {
     display: inline-block;
     font-size: 11px;

@@ -384,7 +384,7 @@
     "statut": "a_surveiller",
     "date_ouverture": null,
     "date_cloture_sort": "2026-11-30",
-    "date_cloture_display": "30 novembre 2026 à 19h (les trois volets) — texte de l'AAP BQR 2027",
+    "date_cloture_display": "30 novembre 2026 à 19h",
     "montant_table": "Jusqu'à 8 500 €",
     "montant_detail": "Volet 1 (manifestations scientifiques) : 7 500 € au total. Volet 2 (stage M2) : 4 000 €, un seul lauréat (gratification + fonctionnement). Volet 3 (projets pluridisciplinaires avec un laboratoire de l'Université de Toulouse ou international) : 8 500 € maximum au total",
     "thematiques": [
@@ -423,7 +423,7 @@
     "statut": "a_surveiller",
     "date_ouverture": null,
     "date_cloture_sort": "2026-11-30",
-    "date_cloture_display": "30 novembre 2026 à 19h — texte de l'AAP Équipement 2027",
+    "date_cloture_display": "30 novembre 2026 à 19h",
     "montant_table": "20 000 € (enveloppe)",
     "montant_detail": "20 000 € au total (crédits d'investissement) ; montant par lauréat non précisé",
     "thematiques": [
@@ -458,7 +458,7 @@
     "statut": "a_surveiller",
     "date_ouverture": null,
     "date_cloture_sort": "2026-11-30",
-    "date_cloture_display": "30 novembre 2026 à 19h (les deux volets) — texte de l'AAP International 2027",
+    "date_cloture_display": "30 novembre 2026 à 19h",
     "montant_table": "2 000 € / 2 500 € par projet",
     "montant_detail": "Volet 1 (mobilité unilatérale sortante) : 8 000 € au total, au moins 4 projets, 2 000 € max par projet. Volet 2 (mobilité bilatérale réciproque) : 10 000 € au total, 2 500 € max par lauréat",
     "thematiques": [

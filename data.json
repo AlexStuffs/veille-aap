@@ -654,6 +654,55 @@
     "notes": "Annonce reçue le 02/09/2026 par transfert de Marion Coureau (relais local), à partir du mail régional du 28/08/2026 (Nadia Pellefigue, Région Occitanie). <strong>5ème édition</strong> de l'appel Emergence — confirme le caractère annuel déjà noté sur l'édition 2026 (cf. 2026_region-occitanie_emergence, désormais close). Aucun cahier des charges ni annexe n'était joint au mail (uniquement des images de signature) : le détail des conditions, montants et pièces à fournir reste à récupérer sur https://www.laregion.fr/Appel-a-projets-EMERGENCE avant tout montage de dossier — les champs ci-dessus repris « par analogie 2026 » ne sont pas vérifiés sur un document 2027. Seule donnée ferme du mail : date limite de dépôt <strong>13 novembre 2026 inclus</strong>, sur la plateforme de la Région."
   },
   {
+    "id": "2027_tiris_scaling-up-science",
+    "titre": "Scaling-up Science Program (5e édition)",
+    "source": "TIRIS (Comité de programme Recherche)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-10-05",
+    "date_cloture_sort": "2027-01-29",
+    "date_cloture_display": "29 janvier 2027, 12h",
+    "montant_table": "≤ 330 k€ HT",
+    "montant_detail": "Jusqu'à 330 k€ HT par projet (personnels non permanents, petit équipement, fonctionnement)",
+    "thematiques": [
+      "Interdisciplinarité",
+      "Inter-sciences (STS × SHS)",
+      "Piliers TIRIS"
+    ],
+    "recurrence": "inconnue",
+    "prochaine_echeance": null,
+    "contact": "contact-tiris@univ-toulouse.fr",
+    "lien": "https://tiris.univ-toulouse.fr/aap/appel-a-projet-scaling-up-science-program-2026-2027/",
+    "objet": "Accompagner la construction de projets de recherche interdisciplinaires, sur quatre ans, répondant aux enjeux d'au moins un des trois grands piliers TIRIS et mobilisant plusieurs laboratoires du site toulousain. Les projets inter-sciences (association de compétences Science-Technologie-Santé et Sciences humaines et sociales) sont particulièrement appréciés. Le dispositif finance deux allocations doctorales sur deux disciplines différentes.",
+    "eligibles": [
+      "Deux porteur·ses relevant de deux pôles de recherche différents (BABS, DSPEG, H-SHS, MST2I, SDM, UPEE). Porteur·ses et encadrant·es de thèse sur poste permanent dans un établissement ou organisme du consortium TIRIS (dont l'INU Champollion). Les doctorant·es sont affilié·es à l'une de leurs écoles doctorales. Des équipes qui collaborent déjà sont recevables si le projet se distingue nettement de l'existant."
+    ],
+    "conditions": [
+      "Aucun·e des deux porteur·ses ne porte ni ne (co)dirige de thèse d'un projet Scaling-up Science en cours.",
+      "Frais de gestion et frais de publication non éligibles.",
+      "Visa de la direction de l'unité d'accueil de chaque laboratoire impliqué.",
+      "Annexe financière avec l'accord des services compétents des établissements bénéficiaires des fonds.",
+      "Un financement acquis ou en cours pour une demi-allocation doctorale peut être signalé dans le budget prévisionnel.",
+      "Temps passé sur le projet : 50 % ETP maximum pour les enseignants-chercheurs. Au moins un·e directeur·ice HDR par thèse. Préciser si le laboratoire est classé ZRR.",
+      "Un des trois piliers TIRIS à choisir : santé et bien-être, changement et impact sociétaux, transitions durables.",
+      "Les lauréats seront invités à construire un plan de gestion des données.",
+      "Coût indicatif d'une allocation doctorale à l'INU Champollion : 125 000 € (liste des contacts par établissement dans le document partenaires). Contact financier INU Champollion : direction.recherche@univ-jfc.fr.",
+      "Suivi : rapport à mi-parcours et rapport final, participation aux actions d'animation TIRIS.",
+      "Sélection en deux phases : évaluation interne par le comité, puis expertises externes à l'Occitanie.",
+      "Critères : qualité scientifique, interdisciplinarité/inter-sciences, effet structurant pour le site, adéquation aux piliers TIRIS, faisabilité, complémentarité des équipes, impact scientifique et sociétal.",
+      "Résultats courant mai 2027. Contrats doctoraux à l'automne 2027 ou à l'automne 2028."
+    ],
+    "pieces": [
+      "Dossier de candidature en PDF (modèle Word, Calibri 11, limites de caractères par rubrique). Chaque rubrique est aussi recopiée dans le formulaire en ligne (hors figures). Résumé public en français et en anglais (2000 caractères chacun), titre limité à 300 caractères.",
+      "Contenu du dossier : enjeux et positionnement, équipe projet, moyens et méthodologie (calendrier, risques), ressources humaines, impacts attendus, bibliographie, éléments budgétaires, éléments pour l'expertise externe.",
+      "Page de présentation synthétique avec la signature des porteur·ses et des directeur·ices des laboratoires impliqués : sans ce visa, le dossier est irrecevable.",
+      "Annexe financière (tableau par laboratoire : personnel, fonctionnement, équipement, gratifications de stage ; montants demandés à TIRIS et à d'autres financeurs) signée par les deux établissements gestionnaires, importée en PDF.",
+      "Éléments pour l'expertise externe : 3 évaluateur·ices extérieur·es à l'Occitanie sans conflit d'intérêts (aucune collaboration ni publication commune dans les 5 dernières années), évaluateur·ices à éviter, préférence ou non pour éviter les non-francophones.",
+      "Dépôt exclusivement sur le Portail TIRIS (compte à créer), en français ou en anglais ; aucune candidature par e-mail."
+    ],
+    "notes": "Vérifié le 07/10/2026 sur le mail de la direction formation relayé par le SAR (07/10/2026) et sur la page de l'appel (publiée le 05/10/2026). Pièces lues le 07/10/2026 : formulaire de candidature (version FR), annexe financière, liste des contacts par établissement (version EN du formulaire non téléchargée). Un café zoom de présentation est annoncé (date et lien à venir). Le SAR accompagne la préparation des dossiers."
+  },
+  {
     "id": "2027_ut_best-cofund",
     "titre": "BEST — programme doctoral MSCA COFUND",
     "source": "Université de Toulouse — programme doctoral international MSCA COFUND « BEST » (Between Earth and Sky in Toulouse), cofinancé par l'UE (Horizon Europe, Marie Skłodowska-Curie Actions COFUND, appel 2025, convention n°101261439)",

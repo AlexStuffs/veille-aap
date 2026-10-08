@@ -138,11 +138,9 @@
     "montant_table": "20 000 – 100 000 €",
     "montant_detail": "20 000 à 100 000 € par projet (subvention, TVA non applicable) ; frais de gestion facultatifs, 4 % maximum du coût complet. Versement : 40 % à la signature de la convention, 30 % à la remise du rapport intermédiaire, 30 % à la remise du rapport final et du compte d'emploi des crédits.",
     "thematiques": [
-      "\"Trajectoires biographiques",
-      "déterminants sociaux et effets des violences sur les souffrances psychiques et les conduites suicidaires\"",
+      "Trajectoires biographiques, déterminants sociaux et effets des violences sur les souffrances psychiques et les conduites suicidaires",
       "Institutions et cadres de socialisation",
-      "\"Politiques et pratiques en santé mentale : la psychiatrie entre crises",
-      "réformes et avancées thérapeutiques\""
+      "Politiques et pratiques en santé mentale : la psychiatrie entre crises, réformes et avancées thérapeutiques"
     ],
     "recurrence": "inconnue",
     "prochaine_echeance": null,
@@ -377,6 +375,46 @@
     "notes": "<strong>Édition close, archivée</strong> : le dépôt était fixé au 14/11/2025 et l'attestation de cofinancement au 31/01/2026. <strong>Remplacée par la 5ème édition, 2027_region-occitanie_emergence</strong>, dépôt au 13/11/2026 (annonce reçue le 02/09/2026). Point de vigilance principal pour un porteur INU Champollion : le site d'Albi est hors métropoles, donc <strong>a priori éligible</strong> — c'est plutôt le <strong>cofinancement de 50 %</strong> (≈ 50 000 € sur 3 ans, hors Région/FEDER/CIFRE) qui conditionne tout le montage, et il doit être formalisé très en amont du démarrage du contrat doctoral. Versement : acompte de 30 % maximum puis solde, proportionnel aux dépenses éligibles après instruction. Certificat d'inscription en 1re année + contrat doctoral exigés pour l'acompte. Engagements du bénéficiaire : entretiens annuels avec la Région sur toute la durée du projet, participation aux campagnes de communication communes et aux actions de médiation scientifique régionales, information de la Région en cas d'arrêt prématuré (le projet prend fin à la date d'arrêt du contrat doctoral)."
   },
   {
+    "id": "2026_ttt_doc-doccitanie",
+    "titre": "Doc d'Occitanie : accompagnement des doctorants à la valorisation (édition 9, session d'automne)",
+    "source": "SATT Toulouse Tech Transfer (UT Innovation, PUI Occitanie Ouest)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": null,
+    "date_cloture_sort": "2026-10-30",
+    "date_cloture_display": "30 octobre 2026, minuit",
+    "montant_table": "Accompagnement (sans montant)",
+    "montant_detail": "Pas de financement direct : accompagnement sur mesure par Toulouse Tech Transfer pendant le doctorat ; financement de maturation possible après le doctorat, sous conditions et sur décision de TTT",
+    "thematiques": [
+      "Valorisation de la thèse",
+      "Entrepreneuriat",
+      "Innovation sous toutes ses formes (SHS comprises)"
+    ],
+    "recurrence": "annuelle",
+    "prochaine_echeance": "Session de printemps 2027, vers mars-mai 2027 (estimé, à vérifier)",
+    "contact": "doc-doccitanie@toulouse-tech-transfer.com",
+    "lien": "https://www.toulouse-tech-transfer.com",
+    "objet": "Programme d'accompagnement des doctorant·es, organisé par la SATT Toulouse Tech Transfer (TTT) et porté par UT Innovation, le Pôle universitaire d'innovation (PUI) d'Occitanie Ouest, pour faciliter leur insertion professionnelle et la détection de projets de recherche innovants. Il vise les projets de thèse ou de postdoctorat susceptibles de générer une innovation répondant à des besoins non satisfaits du marché, avec à terme une perspective de retombées économiques. Le dispositif est affilié au Challenge Starthèse du ministère de l'Enseignement supérieur et de la Recherche et se veut centré sur l'initiation des jeunes chercheur·ses à l'entrepreneuriat : il inclut toutes les formes d'innovation, notamment en SHS et les approches transdisciplinaires, sans se limiter à l'innovation technologique et à la deeptech.  Pendant le doctorat, les lauréat·es bénéficient d'un accompagnement à la carte par TTT : sensibilisation au transfert de technologies, conseil en propriété intellectuelle sur les résultats de la thèse ou du postdoc, analyse du potentiel économique du sujet, accompagnement à l'entrepreneuriat deeptech, formation à des méthodes de créativité et de conception et à la prise de parole en public (pitch). Après le doctorat, TTT peut financer un programme de maturation sur les résultats de la thèse, avec le recrutement du jeune docteur comme ingénieur dédié au projet, et une préincubation par TTT et l'incubateur Nubbo (appui possible de l'incubateur académique de l'établissement).",
+    "eligibles": [
+      "Doctorant·es inscrit·es dans un des établissements de recherche d'Occitanie Ouest, idéalement à partir de la deuxième année, ayant entamé leur projet de thèse ; jeunes docteur·es ayant soutenu depuis moins de 5 ans ; postdoctorant·es inscrit·es dans un établissement de recherche d'Occitanie Ouest. Ne sont a priori pas éligibles : les lauréat·es du concours i-PhD, les jeunes chercheur·ses déjà engagé·es l'année précédente dans un dispositif avancé d'accompagnement à la création d'entreprise (maturation TTT, RISE CNRS, incubation), et ceux dont la recherche s'inscrit dans un partenariat qui partage les droits de propriété intellectuelle ou d'exploitation avec un acteur économique (thèse CIFRE, partenariat avec une entreprise détentrice des droits), sauf si le partenaire envisage une valorisation par spin-off."
+    ],
+    "conditions": [
+      "Accord du directeur ou de la directrice de thèse indispensable. Il ou elle peut aider à constituer le dossier, participer aux réunions de lancement et de fin, aux réunions sur l'analyse de l'innovation (hors entrepreneuriat), et être sollicité·e lors de la sélection.",
+      "Aucune obligation de présenter un projet réel d'entreprise, ni de poursuivre le projet après le programme.",
+      "Accompagnement pris en compte au titre des formations obligatoires des doctorant·es, sous réserve de l'accord des collèges doctoraux.",
+      "Sélection en deux temps. Pré-sélection sur dossier : description du projet et potentiel innovant, adéquation avec un besoin économique ou sociétal, perspectives du projet. Puis pitch devant jury (français ou anglais) : potentiel de transfert de technologies, motivation et engagement du candidat, cohérence de l'ensemble. Pitch le 25 novembre 2026 à la Maison de la Recherche et de la Valorisation (date donnée par le mail de TTT, absente du règlement).",
+      "Jury : UT Innovation – TTT (présidence), École des Docteurs, Bpifrance délégation régionale, acteurs économiques. Jury souverain, décisions non motivées. Membres liés par une charte de déontologie et un engagement de confidentialité (le résumé non confidentiel du dossier excepté).",
+      "Engagements des lauréat·es : disponibilité pour les sessions de travail avec TTT, information du directeur de thèse et accord de celui-ci sur les actions menées, participation au Challenge Starthèse si le projet est retenu au niveau national.",
+      "Maturation après le doctorat, sous conditions : titre de docteur obtenu, résultats permettant un développement applicatif, résultats protégeables par un droit de propriété intellectuelle ou qualifiables de savoir-faire, cession des droits du candidat à son établissement, respect des consignes de publication de TTT, opportunité de marché, décision des instances de TTT."
+    ],
+    "pieces": [
+      "Dossier de candidature (modèle Word joint), rempli en français ou en anglais et envoyé en PDF : candidat, laboratoire et directeur de thèse, sujet et date de soutenance prévue, résumé non confidentiel, contexte et collaborations, état de l'art (publications, propriété intellectuelle), résultats obtenus et attendus, risques, facteur différenciant, maturité technologique (4 niveaux), domaine d'application, type d'innovation, éléments socio-économiques et marchés visés, motivations et attentes, intention de créer une start-up, acceptation du règlement.",
+      "CV détaillé en annexe.",
+      "Envoi par mail à doc-doccitanie@toulouse-tech-transfer.com avec pour objet « Candidature au dispositif Doc D'Occitanie »."
+    ],
+    "notes": "Fiche établie le 08/10/2026 sur le mail de Marion Coureau à la liste chercheurs de l'INU Champollion (08/10/2026), qui relaie l'annonce de Toulouse Tech Transfer, et sur les deux pièces jointes, lues en entier : le règlement de l'édition 9 (6 pages) et le dossier de candidature. Le règlement ne détaille pas la liste des établissements de recherche d'Occitanie Ouest. Le fichier du dossier de candidature joint est nommé « Edition 8 - session printemps » ; son contenu ne mentionne ni édition ni date. Autre contact donné par le mail de TTT : creation@toulouse-tech-transfer.com."
+  },
+  {
     "id": "2027_inuc_bqr",
     "titre": "BQR — Bonus Qualité Recherche",
     "source": "INU Champollion — Direction de la recherche (Bonus Qualité Recherche, dispositif interne financé par prélèvement sur les contrats de recherche gérés par l'établissement)",
@@ -586,8 +624,7 @@
     "montant_table": "30 000 € max (60 %, plafond 10 000 €/partenaire)",
     "montant_detail": "Subvention régionale plafonnée à 60 % de l'assiette éligible et à 10 000 € par partenaire, dans la limite de 30 000 € pour le projet (taux respecté pour chaque partenaire). Aucun cofinancement par un autre dispositif régional accepté. Autofinancement minimum du maître d'ouvrage : 20 % (peut inclure subventions publiques de fonctionnement de la structure et recettes générées par le projet ; minoré en cas de financements privés). Avance de 50 % puis solde, versés au chef de file (reversement aux partenaires par convention).",
     "thematiques": [
-      "\"Culture scientifique",
-      "technique et industrielle\"",
+      "Culture scientifique, technique et industrielle",
       "Médiation scientifique",
       "Esprit critique"
     ],

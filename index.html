@@ -32,6 +32,11 @@
     --status-clos: #5c5f76;
     --status-clos-bg: #e6e6ee;
 
+    /* Échéancier : pas de la charte décalés dans la bande de luminosité des marques
+       (paire validée daltonisme + contraste, clair sur #fff, sombre sur #1b1c38) */
+    --gantt-upcoming: #4348ad;
+    --gantt-soon: #e8561f;
+
     --font-display: Arial, "Helvetica Neue", Helvetica, sans-serif;
     --font-body: Arial, "Helvetica Neue", Helvetica, sans-serif;
     --font-mono: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -67,6 +72,8 @@
       --status-refuse-bg: #3a1420;
       --status-clos: #a3a6c2;
       --status-clos-bg: #24264a;
+      --gantt-upcoming: #767ddc;
+      --gantt-soon: #dc6a36;
     }
   }
   :root[data-theme="dark"] {
@@ -83,6 +90,7 @@
     --status-accepte: #82d66d; --status-accepte-bg: #1c3013;
     --status-refuse: #f293ae; --status-refuse-bg: #3a1420;
     --status-clos: #a3a6c2; --status-clos-bg: #24264a;
+    --gantt-upcoming: #767ddc; --gantt-soon: #dc6a36;
   }
   :root[data-theme="light"] {
     --ink: #000033; --ink-soft: #383b5c; --ink-faint: #6d7092;
@@ -98,6 +106,7 @@
     --status-accepte: #2e7d1f; --status-accepte-bg: #dfefda;
     --status-refuse: #c0003a; --status-refuse-bg: #f8dbe4;
     --status-clos: #5c5f76; --status-clos-bg: #e6e6ee;
+    --gantt-upcoming: #4348ad; --gantt-soon: #e8561f;
   }
 
   * { box-sizing: border-box; }
@@ -263,6 +272,101 @@
     color: var(--ink-faint);
     margin: 4px 0 16px;
   }
+
+  /* ---------- Filtres + échéancier côte à côte ---------- */
+  .filters-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 18px;
+  }
+  .filters-layout .toolbar:last-child { margin-bottom: 0; }
+  @media (max-width: 980px) {
+    .filters-layout { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  /* ---------- Échéancier (Gantt) ---------- */
+  .gantt {
+    --g-label-w: 36%;
+    --g-gap: 10px;
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px 12px;
+  }
+  .gantt-head {
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+    gap: 6px 16px; margin-bottom: 10px;
+  }
+  .gantt-title {
+    font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--accent); font-weight: 700; margin: 0;
+  }
+  .gantt-legend {
+    display: flex; flex-wrap: wrap; gap: 4px 12px;
+    font-size: 11.5px; color: var(--ink-faint);
+  }
+  .gantt-legend span { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+  .lg-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .lg-bar { width: 16px; height: 6px; border-radius: 0 3px 3px 0; display: inline-block; background: var(--ink-faint); opacity: .45; }
+  .lg-today { width: 2px; height: 11px; display: inline-block; background: var(--accent-warm); }
+
+  .g-axis, .g-row {
+    display: grid;
+    grid-template-columns: var(--g-label-w) minmax(0, 1fr);
+    column-gap: var(--g-gap);
+  }
+  .g-axis { height: 20px; }
+  .g-ticks { position: relative; font-size: 10.5px; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+  .g-tick { position: absolute; top: 2px; transform: translateX(-50%); white-space: nowrap; }
+  .g-tick.today { color: var(--ink-soft); font-weight: 700; }
+  .g-rows { position: relative; }
+  .g-grid {
+    position: absolute; top: 0; bottom: 0; right: 0;
+    left: calc(var(--g-label-w) + var(--g-gap));
+    pointer-events: none;
+  }
+  .g-gridline { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line-soft); }
+  .g-todayline { position: absolute; top: -6px; bottom: 0; width: 2px; margin-left: -1px; background: var(--accent-warm); }
+  .g-row {
+    height: 22px; align-items: center; cursor: pointer; border-radius: 4px;
+    position: relative;
+  }
+  .g-row:hover, .g-row:focus-visible { background: var(--paper-sunken); }
+  .g-label {
+    font-size: 12px; color: var(--ink-soft);
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    padding-left: 4px;
+  }
+  .g-track { position: relative; height: 100%; }
+  .g-bar {
+    position: absolute; top: 50%; height: 8px; margin-top: -4px;
+    border-radius: 0 4px 4px 0; opacity: .32;
+  }
+  .g-dot {
+    position: absolute; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px;
+    border-radius: 50%; box-shadow: 0 0 0 2px var(--paper-raised);
+  }
+  .g-row:hover .g-dot, .g-row:focus-visible .g-dot { box-shadow: 0 0 0 2px var(--paper-sunken), 0 0 0 3px var(--ink-faint); }
+  .g-jlabel {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 10.5px; font-weight: 700; color: var(--ink-soft); white-space: nowrap;
+  }
+  .g-row.passed .g-label { color: var(--ink-faint); }
+  .g-empty { font-size: 13px; color: var(--ink-faint); padding: 18px 4px; }
+  .g-tip {
+    position: fixed; z-index: 30; pointer-events: none;
+    background: var(--paper-raised); border: 1px solid var(--line);
+    border-radius: 8px; box-shadow: var(--shadow);
+    padding: 8px 10px; font-size: 12px; color: var(--ink-soft);
+    max-width: 280px; line-height: 1.45;
+  }
+  .g-tip[hidden] { display: none; }
+  .g-tip .tv { color: var(--ink); font-weight: 700; font-size: 13px; display: flex; align-items: center; gap: 6px; }
+  .g-tip .tv i { width: 12px; height: 2px; display: inline-block; flex: none; }
+  .g-tip .tt { margin-top: 2px; }
+  .g-tip .ts { color: var(--ink-faint); font-size: 11.5px; margin-top: 2px; }
 
   /* ---------- Table ---------- */
   .table-wrap {
@@ -483,20 +587,37 @@
 
   <div class="stats" id="stats"></div>
 
-  <div class="toolbar">
-    <div class="search">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input type="text" id="search" placeholder="Rechercher un dispositif, une source, une thématique…" autocomplete="off">
+  <div class="filters-layout">
+    <div class="filters-col">
+      <div class="toolbar">
+        <div class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="search" placeholder="Rechercher un dispositif, une source, une thématique…" autocomplete="off">
+        </div>
+      </div>
+      <div class="toolbar" style="margin-bottom:6px">
+        <div class="chip-group" id="filter-statut"></div>
+      </div>
+      <div class="toolbar">
+        <div class="chip-group" id="filter-type"></div>
+      </div>
+      <p class="results-count" id="results-count"></p>
     </div>
+    <section class="gantt" aria-labelledby="gantt-title">
+      <div class="gantt-head">
+        <h2 class="gantt-title" id="gantt-title">Échéancier</h2>
+        <div class="gantt-legend">
+          <span><i class="lg-dot" style="background:var(--gantt-upcoming)"></i>Clôture à venir</span>
+          <span><i class="lg-dot" style="background:var(--gantt-soon)"></i>Sous 30 jours</span>
+          <span><i class="lg-dot" style="background:var(--ink-faint)"></i>Passée</span>
+          <span><i class="lg-bar"></i>Période de candidature</span>
+          <span><i class="lg-today"></i>Aujourd'hui</span>
+        </div>
+      </div>
+      <div id="gantt-body"></div>
+    </section>
   </div>
-  <div class="toolbar" style="margin-bottom:6px">
-    <div class="chip-group" id="filter-statut"></div>
-  </div>
-  <div class="toolbar">
-    <div class="chip-group" id="filter-type"></div>
-  </div>
-
-  <p class="results-count" id="results-count"></p>
+  <div class="g-tip" id="g-tip" role="tooltip" hidden></div>
 
   <div class="table-wrap">
     <table>
@@ -517,7 +638,7 @@
   <div class="empty-state" id="empty-state" hidden>Aucun dispositif ne correspond à ces filtres.</div>
 
   <div class="foot">
-    <p><strong>Comment lire ce registre</strong> — le statut reflète l'état de suivi personnel du dispositif (à surveiller, en rédaction, soumis…), pas nécessairement son ouverture calendaire : un appel « à surveiller » dont l'échéance affichée est passée signifie que l'édition suivante n'a pas encore été republiée. Les montants, conditions et pièces à fournir sont résumés à partir des textes d'appel originaux — se référer au texte officiel avant tout dépôt.</p>
+    <p><strong>Comment lire ce registre</strong> — le statut reflète l'état de suivi personnel du dispositif (à surveiller, en rédaction, soumis…), pas nécessairement son ouverture calendaire : un appel « à surveiller » dont l'échéance affichée est passée signifie que l'édition suivante n'a pas encore été republiée. Les dispositifs clos sont masqués par défaut (filtres « Tous statuts » ou « Clos » pour les afficher). L'échéancier suit les filtres : le point marque la clôture, la barre la période de candidature quand la date d'ouverture est connue. Les montants, conditions et pièces à fournir sont résumés à partir des textes d'appel originaux — se référer au texte officiel avant tout dépôt.</p>
     <p>Généré à partir du dossier <strong>02_recherche/appels_a_projets_financements</strong> — export statique en lecture seule, à régénérer manuellement lors de nouvelles entrées.</p>
   </div>
 </div>
@@ -626,12 +747,14 @@
   }
 
   // ---------- Filters state ----------
-  var state = { q: "", statut: "all", type: "all" };
+  // Par défaut, les dispositifs clos sont masqués (« hors_clos ») ; « Tous statuts »
+  // ou « Clos » les réaffichent.
+  var state = { q: "", statut: "hors_clos", type: "all" };
 
   function renderFilterChips() {
-    var statutOptions = ["all", "a_surveiller", "en_redaction", "soumis", "accepte", "refuse", "clos"];
+    var statutOptions = ["hors_clos", "all", "a_surveiller", "en_redaction", "soumis", "accepte", "refuse", "clos"];
     document.getElementById("filter-statut").innerHTML = statutOptions.map(function (s) {
-      var label = s === "all" ? "Tous statuts" : STATUT_LABEL[s];
+      var label = s === "hors_clos" ? "Hors clos" : s === "all" ? "Tous statuts" : STATUT_LABEL[s];
       return '<button class="chip" data-filter="statut" data-value="' + s + '" aria-pressed="' + (state.statut === s) + '">' + label + '</button>';
     }).join("");
 
@@ -642,8 +765,11 @@
     }).join("");
   }
 
-  function matches(d) {
-    if (state.statut !== "all" && d.statut !== state.statut) return false;
+  function matches(d, ignoreStatut) {
+    if (!ignoreStatut) {
+      if (state.statut === "hors_clos") { if (d.statut === "clos") return false; }
+      else if (state.statut !== "all" && d.statut !== state.statut) return false;
+    }
     if (state.type !== "all" && d.type !== state.type) return false;
     if (state.q) {
       var hay = (d.titre + " " + d.source + " " + d.thematiques.join(" ")).toLowerCase();
@@ -664,12 +790,18 @@
   }
 
   function render() {
-    var list = DATA.filter(matches).slice().sort(function (a, b) {
+    var list = DATA.filter(function (d) { return matches(d); }).sort(function (a, b) {
       return a.date_cloture_sort.localeCompare(b.date_cloture_sort);
     });
 
-    document.getElementById("results-count").textContent = list.length + " / " + DATA.length + " dispositifs affichés";
+    var closMasques = state.statut === "hors_clos"
+      ? DATA.filter(function (d) { return d.statut === "clos" && matches(d, true); }).length
+      : 0;
+    document.getElementById("results-count").textContent = list.length + " / " + DATA.length + " dispositifs affichés" +
+      (closMasques ? " — " + closMasques + (closMasques > 1 ? " clos masqués" : " clos masqué") : "");
     document.getElementById("empty-state").hidden = list.length > 0;
+
+    renderGantt(list);
 
     document.getElementById("table-body").innerHTML = list.map(function (d) {
       return '<tr tabindex="0" data-id="' + d.id + '">' +
@@ -693,6 +825,152 @@
     Array.prototype.forEach.call(document.querySelectorAll("[data-id]"), function (el) {
       el.addEventListener("click", function () { openPanel(el.getAttribute("data-id")); });
       el.addEventListener("keydown", function (e) { if (e.key === "Enter") openPanel(el.getAttribute("data-id")); });
+    });
+  }
+
+  // ---------- Échéancier (Gantt) ----------
+  // Une ligne par dispositif filtré, dans l'ordre du tableau. Point = clôture,
+  // barre = période de candidature (seulement si date_ouverture est connue).
+  // Couleur = proximité de la clôture (à venir / sous 30 jours / passée).
+  var DAY = 86400000;
+  var ISO_RE = /^\d{4}-\d{2}-\d{2}$/;
+  function parseISO(iso) { return new Date(iso + "T00:00:00"); }
+  function daysUntil(iso) { return Math.round((parseISO(iso) - parseISO(todayISO)) / DAY); }
+  function relText(n) {
+    if (n === 0) return "Clôture aujourd'hui";
+    if (n === 1) return "Clôture demain";
+    if (n > 1) return "Clôture dans " + n + " jours";
+    return n === -1 ? "Clôture passée depuis 1 jour" : "Clôture passée depuis " + (-n) + " jours";
+  }
+  // Un dispositif clos reste gris même si sa date de tri est dans le futur.
+  function proximity(n, statut) {
+    if (n < 0 || statut === "clos") return { cls: "passed", color: "var(--ink-faint)" };
+    if (n <= 30) return { cls: "soon", color: "var(--gantt-soon)" };
+    return { cls: "upcoming", color: "var(--gantt-upcoming)" };
+  }
+
+  var tip = document.getElementById("g-tip");
+  function hideTip() { tip.hidden = true; }
+  function showTip(d, x, y) {
+    var n = daysUntil(d.date_cloture_sort);
+    tip.textContent = "";
+    var v = document.createElement("div"); v.className = "tv";
+    var key = document.createElement("i"); key.style.background = proximity(n, d.statut).color;
+    v.appendChild(key); v.appendChild(document.createTextNode(d.statut === "clos" && n >= 0 ? "Dispositif clos" : relText(n)));
+    var t = document.createElement("div"); t.className = "tt"; t.textContent = d.titre;
+    var s = document.createElement("div"); s.className = "ts";
+    s.textContent = "Clôture : " + fmtDate(d.date_cloture_sort) +
+      (d.date_ouverture ? " · ouverture : " + fmtDate(d.date_ouverture) : "");
+    tip.appendChild(v); tip.appendChild(t); tip.appendChild(s);
+    tip.hidden = false;
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var left = x + 14, top = y + 14;
+    if (left + w > window.innerWidth - 8) left = x - w - 14;
+    if (top + h > window.innerHeight - 8) top = y - h - 14;
+    tip.style.left = Math.max(8, left) + "px";
+    tip.style.top = Math.max(8, top) + "px";
+  }
+  window.addEventListener("scroll", hideTip, { passive: true });
+
+  function renderGantt(list) {
+    var host = document.getElementById("gantt-body");
+    hideTip();
+    var items = list.filter(function (d) { return ISO_RE.test(d.date_cloture_sort || ""); });
+    if (!items.length) {
+      host.innerHTML = '<p class="g-empty">Aucune échéance pour ces filtres.</p>';
+      return;
+    }
+
+    var today = parseISO(todayISO).getTime();
+    var clos = items.map(function (d) { return parseISO(d.date_cloture_sort).getTime(); });
+    // Début : 1er du mois de la plus ancienne clôture affichée (au plus tard 15 jours
+    // avant aujourd'hui) ; une période de candidature plus ancienne est coupée au bord gauche.
+    var startRef = new Date(Math.min(Math.min.apply(null, clos), today - 15 * DAY));
+    var start = new Date(startRef.getFullYear(), startRef.getMonth(), 1).getTime();
+    var end = Math.max(Math.max.apply(null, clos) + 10 * DAY, today + 30 * DAY);
+    var span = end - start;
+    function pct(t) { return Math.max(0, Math.min(100, (t - start) / span * 100)); }
+
+    // Axe : un trait par début de mois, libellé centré sur la portion visible du mois.
+    var grid = "", ticks = "";
+    var m = new Date(start);
+    var nMonths = 0;
+    var step = Math.ceil(span / DAY / 30 / 7) || 1; // au plus ~7 libellés de mois
+    while (m.getTime() < end) {
+      var mStart = m.getTime();
+      var next = new Date(m.getFullYear(), m.getMonth() + 1, 1).getTime();
+      var visibleEnd = Math.min(next, end);
+      grid += '<div class="g-gridline" style="left:' + pct(mStart) + '%"></div>';
+      if (nMonths % step === 0 && (visibleEnd - mStart) / DAY >= 12) {
+        var lab = m.toLocaleDateString("fr-FR", { month: "short" });
+        if (m.getMonth() === 0 || nMonths === 0) lab += " " + String(m.getFullYear()).slice(2);
+        ticks += '<span class="g-tick" style="left:' + pct((mStart + visibleEnd) / 2) + '%">' + lab + '</span>';
+      }
+      m = new Date(next);
+      nMonths++;
+    }
+    if (today >= start && today <= end) grid += '<div class="g-todayline" style="left:' + pct(today) + '%"></div>';
+
+    host.innerHTML =
+      '<div class="g-axis" aria-hidden="true"><div></div><div class="g-ticks">' + ticks + '</div></div>' +
+      '<div class="g-rows"><div class="g-grid" aria-hidden="true">' + grid + '</div></div>';
+    var rows = host.querySelector(".g-rows");
+
+    items.forEach(function (d) {
+      var clo = parseISO(d.date_cloture_sort).getTime();
+      var n = daysUntil(d.date_cloture_sort);
+      var prox = proximity(n, d.statut);
+
+      var row = document.createElement("div");
+      row.className = "g-row " + prox.cls;
+      row.tabIndex = 0;
+      row.setAttribute("data-id", d.id);
+      row.setAttribute("aria-label", d.titre + " — " + (d.statut === "clos" && n >= 0 ? "dispositif clos" : relText(n).toLowerCase()) + " (" + fmtDate(d.date_cloture_sort) + ")");
+
+      var label = document.createElement("div");
+      label.className = "g-label";
+      label.textContent = d.titre;
+
+      var track = document.createElement("div");
+      track.className = "g-track";
+      if (d.date_ouverture && ISO_RE.test(d.date_ouverture)) {
+        var ouv = parseISO(d.date_ouverture).getTime();
+        if (ouv < clo) {
+          var bar = document.createElement("span");
+          bar.className = "g-bar";
+          bar.style.left = pct(ouv) + "%";
+          bar.style.width = (pct(clo) - pct(ouv)) + "%";
+          bar.style.background = prox.color;
+          track.appendChild(bar);
+        }
+      }
+      var dot = document.createElement("span");
+      dot.className = "g-dot";
+      dot.style.left = pct(clo) + "%";
+      dot.style.background = prox.color;
+      track.appendChild(dot);
+
+      // Étiquette directe sélective : seulement les clôtures sous 30 jours.
+      if (prox.cls === "soon") {
+        var j = document.createElement("span");
+        j.className = "g-jlabel";
+        j.textContent = n === 0 ? "auj." : "J-" + n;
+        if (pct(clo) > 85) j.style.right = "calc(" + (100 - pct(clo)) + "% + 9px)";
+        else j.style.left = "calc(" + pct(clo) + "% + 9px)";
+        track.appendChild(j);
+      }
+
+      row.appendChild(label);
+      row.appendChild(track);
+      row.addEventListener("mousemove", function (e) { showTip(d, e.clientX, e.clientY); });
+      row.addEventListener("mouseleave", hideTip);
+      row.addEventListener("focus", function () {
+        var r = row.getBoundingClientRect();
+        showTip(d, r.left + r.width * 0.4, r.bottom - 10);
+      });
+      row.addEventListener("blur", hideTip);
+      row.addEventListener("click", hideTip);
+      rows.appendChild(row);
     });
   }
 

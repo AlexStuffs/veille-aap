@@ -691,6 +691,54 @@
     "notes": "Annonce reçue le 02/09/2026 par transfert de Marion Coureau (relais local), à partir du mail régional du 28/08/2026 (Nadia Pellefigue, Région Occitanie). <strong>5ème édition</strong> de l'appel Emergence — confirme le caractère annuel déjà noté sur l'édition 2026 (cf. 2026_region-occitanie_emergence, désormais close). Aucun cahier des charges ni annexe n'était joint au mail (uniquement des images de signature) : le détail des conditions, montants et pièces à fournir reste à récupérer sur https://www.laregion.fr/Appel-a-projets-EMERGENCE avant tout montage de dossier — les champs ci-dessus repris « par analogie 2026 » ne sont pas vérifiés sur un document 2027. Seule donnée ferme du mail : date limite de dépôt <strong>13 novembre 2026 inclus</strong>, sur la plateforme de la Région."
   },
   {
+    "id": "2027_tiris_co-recherche",
+    "titre": "Co-recherches avec et pour la société 2027 (4e édition, volets 1 et 2)",
+    "source": "TIRIS (Comité de programme Science et Société)",
+    "type": "externe",
+    "statut": "a_surveiller",
+    "date_ouverture": "2026-11-19",
+    "date_cloture_sort": "2027-03-30",
+    "date_cloture_display": "30 mars 2027",
+    "montant_table": "10 k€ (V1) / 50 k€ (V2)",
+    "montant_detail": "Volet 1 émergence : jusqu'à 10 k€ par projet (5 à 10 projets). Volet 2 consolidation : jusqu'à 50 k€ par projet (5 à 6 projets)",
+    "thematiques": [
+      "Co-recherche",
+      "Sciences et société",
+      "Piliers TIRIS",
+      "Santé et bien-être",
+      "Changement global",
+      "Transitions durables"
+    ],
+    "recurrence": "annuelle",
+    "prochaine_echeance": "Fin 2027 - mars 2028 (estimé, à vérifier)",
+    "contact": "contact-tiris@univ-toulouse.fr",
+    "lien": "https://tiris.univ-toulouse.fr/aap/appel-a-projets-tiris-co-recherches-avec-et-pour-la-societe-2027/",
+    "objet": "Financer des projets de co-recherche : activité de production de connaissances qui associe aux chercheurs académiques des acteurs socio-économiques, professionnels ou non (associations, entreprises, collectivités, collectifs de citoyens, établissements scolaires, centres de formation, administrations, particuliers). Les partenariats sont co-construits et co-pilotés tout au long du cycle de production de la connaissance, jusqu'à sa valorisation.  La co-construction est une exigence du programme. Préférence aux projets dont la démarche est coconstruite et explicitée et qui contribuent à un ou plusieurs des trois piliers TIRIS : vie en bonne santé et bien-être ; changement global et impact sur les sociétés ; transitions durables (mobilité, énergie, ressources, écosystèmes, mutations industrielles).  Sont particulièrement appréciés les projets qui diversifient les types de partenariats ou associent des publics peu présents dans la recherche (milieux sociaux, genre, âge, territoire, handicap, pathologie…). Ce n'est pas une exigence : une co-recherche peut porter sur un public spécifique.  Deux volets, un seul à choisir à la soumission : 1 - émergence (consortiums qui démarrent leur collaboration par des actions concrètes) ; 2 - consolidation (consortiums établis qui amplifient, approfondissent ou élargissent des travaux précédents).",
+    "eligibles": [
+      "Le porteur a un statut permanent et est employé par l'un des établissements ou organismes nationaux du consortium TIRIS. Les autres participants peuvent être des universitaires ou des acteurs de la société civile, sans contrainte géographique."
+    ],
+    "conditions": [
+      "Volet 1 (émergence) : 5 à 10 projets, 10 k€ maximum chacun, durée maximale 2 ans, dépenses éligibles jusqu'à fin septembre 2029.",
+      "Volet 2 (consolidation) : 5 à 6 projets, 50 k€ maximum chacun, durée maximale 3 ans, dépenses éligibles jusqu'à fin septembre 2030.",
+      "Dépenses éligibles : fonctionnement, équipement, salaires, financement de stagiaires, missions, événements, prestations de services, communication et facilitation scientifique. Frais de gestion et frais généraux des établissements non éligibles.",
+      "Les financements destinés aux structures de la société civile sont versés sous forme de prestation par l'un des membres académiques du consortium.",
+      "Suivi : rapport de fin de projet pour tous les projets de moins de 24 mois ; rapport de fin de projet et rapport de mi-parcours au-delà de 24 mois.",
+      "Évaluation par le Comité de programme Science et Société de TIRIS, avec des experts issus de la société.",
+      "Critères communs : caractère de co-recherche entre l'académie et la société ; qualité scientifique et inscription dans un ou plusieurs piliers TIRIS ; qualité et complémentarité du consortium ; cohérence objectifs / moyens et impacts scientifiques et sociétaux ; livrables à différentes étapes (publications, médiation, valorisation auprès de publics non spécialistes) ; perspectives de poursuite.",
+      "Critères supplémentaires pour la consolidation : stratégies de co-construction explicitées à toutes les étapes (modalités d'implication de chaque partenaire, valeur ajoutée de la co-construction, effets transformateurs) ; capacité à communiquer et capitaliser sur les connaissances acquises ; auto-évaluation et valorisation en enseignement appréciées (un plus).",
+      "Projets déjà financés par cet appel les années précédentes : présenter les résultats obtenus et la consommation du budget alloué.",
+      "Calendrier : ouverture le 19 novembre 2026 ; dépôt au plus tard le 30 mars 2027 ; audition du volet consolidation en seconde quinzaine de mai 2027 ; fin de la sélection prévue le 15 juillet 2027 ; démarrage le 1er octobre 2027.",
+      "Les projets d'innovation sociétale, sociale ou environnementale à haut risque ou à potentiel économique, sociétal ou environnemental peuvent aller à l'appel Brave New Innovation Program (BNI volet I)."
+    ],
+    "pieces": [
+      "Dossier déposé sur le <a href=\"https://portail-tiris.univ-toulouse.fr/\" target=\"_blank\" rel=\"noopener\">portail TIRIS</a> à partir du 19 novembre 2026.",
+      "Formulaire de candidature : 4 pages maximum (volet 1), 10 pages maximum (volet 2).",
+      "Annexe financière.",
+      "Formulaire et annexe financière non lus (téléchargement en attente) : liste des pièces à compléter après lecture."
+    ],
+    "notes": "Vérifié le 21/11/2026 sur la page de l'appel (publiée le 19/11/2026, lue en entier) et sur le mail d'ouverture du comité de programme Science et Société de TIRIS (20/11/2026, relayé par la liste SCoTE). Les deux sources concordent sur l'ouverture (19/11/2026) et la clôture (30/03/2027) ; aucune divergence. Il s'agit de la 4e édition. Formulaire de candidature et annexe financière non téléchargés ni lus."
+  },
+  {
     "id": "2027_tiris_scaling-up-science",
     "titre": "Scaling-up Science Program (5e édition)",
     "source": "TIRIS (Comité de programme Recherche)",

@@ -271,26 +271,25 @@
     font-family: var(--font-mono);
     font-size: 12px;
     color: var(--ink-faint);
-    margin: 4px 0 16px;
+    margin: 10px 0 12px;
   }
 
-  /* ---------- Filtres + échéancier côte à côte ---------- */
-  .filters-layout {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-    gap: 24px;
-    align-items: start;
-    margin-bottom: 18px;
+  /* ---------- Filtres sur une ligne (entre échéancier et tableau) ---------- */
+  .filters-row {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px;
+    margin: 18px 0 0;
   }
-  .filters-layout .toolbar:last-child { margin-bottom: 0; }
-  @media (max-width: 980px) {
-    .filters-layout { grid-template-columns: minmax(0, 1fr); }
-  }
-
+  @media (min-width: 1100px) { .filters-row { flex-wrap: nowrap; } }
+  .filters-row .search { flex: 1 1 120px; min-width: 120px; }
+  .filters-row .chip-group { flex-wrap: nowrap; gap: 4px; flex: none; }
+  .filters-row .chip { font-size: 12px; padding: 5px 9px; }
+  .filters-row .chip-group + .chip-group { padding-left: 14px; border-left: 1px solid var(--line); }
+  @media (max-width: 1099px) { .filters-row .chip-group { flex-wrap: wrap; } }
   /* ---------- Échéancier (Gantt) ---------- */
   .gantt {
-    --g-label-w: 36%;
+    --g-label-w: 220px;
     --g-gap: 10px;
+    margin-top: 6px;
     background: var(--paper-raised);
     border: 1px solid var(--line);
     border-radius: 10px;
@@ -313,6 +312,24 @@
   .lg-bar { width: 16px; height: 6px; border-radius: 0 3px 3px 0; display: inline-block; background: var(--ink-faint); opacity: .45; }
   .lg-today { width: 2px; height: 11px; display: inline-block; background: var(--accent-warm); }
 
+  #gantt-body { overflow-x: auto; padding-bottom: 4px; }
+  .gantt.collapsed .gantt-head { margin-bottom: 0; }
+  .gantt.collapsed #gantt-wrap { display: none; }
+  .gantt.collapsed .gantt-legend { display: none; }
+  .g-ctrl { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+  .g-seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .g-btn {
+    font: inherit; font-size: 12px; padding: 4px 10px; cursor: pointer;
+    border: 0; background: var(--paper-raised); color: var(--ink-soft);
+  }
+  .g-seg .g-btn + .g-btn { border-left: 1px solid var(--line); }
+  .g-btn:hover { color: var(--ink); }
+  .g-btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+  .g-toggle { border: 1px solid var(--line); border-radius: 999px; }
+  .g-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .g-inner { position: relative; }
+  .g-axis > :first-child, .g-label { position: sticky; left: 0; z-index: 2; background: var(--paper-raised); }
+  .g-row:hover .g-label, .g-row:focus-visible .g-label { background: var(--paper-sunken); }
   .g-axis, .g-row {
     display: grid;
     grid-template-columns: var(--g-label-w) minmax(0, 1fr);
@@ -370,6 +387,12 @@
   .g-tip .ts { color: var(--ink-faint); font-size: 11.5px; margin-top: 2px; }
 
   /* ---------- Table ---------- */
+  th[data-sort] { cursor: pointer; user-select: none; white-space: nowrap; }
+  th[data-sort]:hover { color: var(--ink); }
+  th[data-sort]::after { content: "↕"; margin-left: 6px; opacity: .35; font-size: 10px; }
+  th[data-sort][aria-sort="ascending"]::after { content: "▲"; opacity: 1; color: var(--accent); }
+  th[data-sort][aria-sort="descending"]::after { content: "▼"; opacity: 1; color: var(--accent); }
+  th[data-sort]:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
   .table-wrap {
     border: 1px solid var(--line);
     border-radius: 10px;
@@ -588,47 +611,47 @@
 
   <div class="stats" id="stats"></div>
 
-  <div class="filters-layout">
-    <div class="filters-col">
-      <div class="toolbar">
-        <div class="search">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="text" id="search" placeholder="Rechercher un dispositif, une source, une thématique…" autocomplete="off">
+  <section class="gantt" aria-labelledby="gantt-title">
+    <div class="gantt-head">
+      <h2 class="gantt-title" id="gantt-title">Échéancier</h2>
+      <div class="g-ctrl">
+        <div class="g-seg" role="group" aria-label="Échelle de l'échéancier">
+          <button type="button" class="g-btn" data-scale="jour" aria-pressed="false">Jours</button>
+          <button type="button" class="g-btn" data-scale="semaine" aria-pressed="false">Semaines</button>
+          <button type="button" class="g-btn" data-scale="mois" aria-pressed="true">Mois</button>
         </div>
+        <button type="button" class="g-btn g-toggle" id="g-toggle" aria-expanded="true" aria-controls="gantt-wrap">Masquer</button>
       </div>
-      <div class="toolbar" style="margin-bottom:6px">
-        <div class="chip-group" id="filter-statut"></div>
+      <div class="gantt-legend">
+        <span><i class="lg-dot" style="background:var(--gantt-upcoming)"></i>Clôture à venir</span>
+        <span><i class="lg-dot" style="background:var(--gantt-soon)"></i>Sous 30 jours</span>
+        <span><i class="lg-dot" style="background:var(--ink-faint)"></i>Passée</span>
+        <span><i class="lg-bar"></i>Période de candidature</span>
+        <span><i class="lg-today"></i>Aujourd'hui</span>
       </div>
-      <div class="toolbar">
-        <div class="chip-group" id="filter-type"></div>
-      </div>
-      <p class="results-count" id="results-count"></p>
     </div>
-    <section class="gantt" aria-labelledby="gantt-title">
-      <div class="gantt-head">
-        <h2 class="gantt-title" id="gantt-title">Échéancier</h2>
-        <div class="gantt-legend">
-          <span><i class="lg-dot" style="background:var(--gantt-upcoming)"></i>Clôture à venir</span>
-          <span><i class="lg-dot" style="background:var(--gantt-soon)"></i>Sous 30 jours</span>
-          <span><i class="lg-dot" style="background:var(--ink-faint)"></i>Passée</span>
-          <span><i class="lg-bar"></i>Période de candidature</span>
-          <span><i class="lg-today"></i>Aujourd'hui</span>
-        </div>
-      </div>
-      <div id="gantt-body"></div>
-    </section>
+    <div id="gantt-wrap"><div id="gantt-body"></div></div>
+  </section>
+
+  <div class="filters-row">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="search" placeholder="Rechercher…" aria-label="Rechercher un dispositif, une source, une thématique" autocomplete="off">
+    </div>
+    <div class="chip-group" id="filter-statut"></div>
+    <div class="chip-group" id="filter-type"></div>
   </div>
-  <div class="g-tip" id="g-tip" role="tooltip" hidden></div>
+  <p class="results-count" id="results-count"></p>  <div class="g-tip" id="g-tip" role="tooltip" hidden></div>
 
   <div class="table-wrap">
     <table>
       <thead>
         <tr>
-          <th>Statut</th>
-          <th class="col-titre">Dispositif</th>
-          <th>Clôture</th>
-          <th>Montant</th>
-          <th class="col-theme">Thématiques</th>
+          <th data-sort="statut">Statut</th>
+          <th class="col-titre" data-sort="titre">Dispositif</th>
+          <th data-sort="date">Clôture</th>
+          <th data-sort="montant">Montant</th>
+          <th class="col-theme" data-sort="theme">Thématiques</th>
           <th class="col-chevron"></th>
         </tr>
       </thead>
@@ -751,6 +774,48 @@
   // Par défaut, les dispositifs clos sont masqués (« hors_clos ») ; « Tous statuts »
   // ou « Clos » les réaffichent.
   var state = { q: "", statut: "hors_clos", type: "all" };
+  var sort = { key: "date", dir: 1 };
+  function montantNum(s) {
+    var best = -1, re = /(\d[\d\s.,]*)\s*(k|m)?\s*€/gi, m;
+    while ((m = re.exec(s || ""))) {
+      var v = parseFloat(m[1].replace(/\s/g, "").replace(",", "."));
+      if (isNaN(v)) continue;
+      var u = (m[2] || "").toLowerCase();
+      v = u === "k" ? v * 1e3 : u === "m" ? v * 1e6 : v;
+      if (v > best) best = v;
+    }
+    return best;
+  }
+  function sortValue(d, key) {
+    if (key === "statut") return STATUT_LABEL[d.statut] || d.statut;
+    if (key === "titre") return d.titre;
+    if (key === "montant") return montantNum(d.montant_table);
+    if (key === "theme") return (d.thematiques[0] || "");
+    return d.date_cloture_sort;
+  }
+  function compare(a, b) {
+    var x = sortValue(a, sort.key), y = sortValue(b, sort.key), r;
+    if (typeof x === "number") {
+      if (x < 0 && y < 0) r = 0; else if (x < 0) return 1; else if (y < 0) return -1; else r = x - y;
+    } else r = String(x).localeCompare(String(y), "fr", { sensitivity: "base" });
+    if (r === 0) r = a.date_cloture_sort.localeCompare(b.date_cloture_sort);
+    return r * sort.dir;
+  }
+  function updateSortHeaders() {
+    Array.prototype.forEach.call(document.querySelectorAll("th[data-sort]"), function (th) {
+      th.setAttribute("aria-sort", th.getAttribute("data-sort") === sort.key ? (sort.dir === 1 ? "ascending" : "descending") : "none");
+    });
+  }
+  Array.prototype.forEach.call(document.querySelectorAll("th[data-sort]"), function (th) {
+    th.tabIndex = 0;
+    function go() {
+      var k = th.getAttribute("data-sort");
+      if (sort.key === k) sort.dir = -sort.dir; else { sort.key = k; sort.dir = 1; }
+      render();
+    }
+    th.addEventListener("click", go);
+    th.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  });
 
   function renderFilterChips() {
     var statutOptions = ["hors_clos", "all", "a_surveiller", "en_redaction", "soumis", "accepte", "refuse", "clos"];
@@ -791,9 +856,8 @@
   }
 
   function render() {
-    var list = DATA.filter(function (d) { return matches(d); }).sort(function (a, b) {
-      return a.date_cloture_sort.localeCompare(b.date_cloture_sort);
-    });
+    var list = DATA.filter(function (d) { return matches(d); }).sort(compare);
+    updateSortHeaders();
 
     var closMasques = state.statut === "hors_clos"
       ? DATA.filter(function (d) { return d.statut === "clos" && matches(d, true); }).length
@@ -830,7 +894,7 @@
   }
 
   // ---------- Échéancier (Gantt) ----------
-  // Une ligne par dispositif filtré, dans l'ordre du tableau. Point = clôture,
+  // Une ligne par dispositif filtré, dans l'ordre du tableau (tri choisi par l'utilisateur). Point = clôture,
   // barre = période de candidature (seulement si date_ouverture est connue).
   // Couleur = proximité de la clôture (à venir / sous 30 jours / passée).
   var DAY = 86400000;
@@ -873,6 +937,26 @@
   }
   window.addEventListener("scroll", hideTip, { passive: true });
 
+  var gScale = "mois", gScroll = false;
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest(".g-btn[data-scale]");
+    if (b) {
+      gScale = b.getAttribute("data-scale"); gScroll = true;
+      Array.prototype.forEach.call(document.querySelectorAll(".g-btn[data-scale]"), function (x) {
+        x.setAttribute("aria-pressed", String(x === b));
+      });
+      render();
+      return;
+    }
+    var tg = e.target.closest("#g-toggle");
+    if (tg) {
+      var c = document.querySelector(".gantt").classList.toggle("collapsed");
+      tg.setAttribute("aria-expanded", String(!c));
+      tg.textContent = c ? "Afficher" : "Masquer";
+      hideTip();
+    }
+  });
+
   function renderGantt(list) {
     var host = document.getElementById("gantt-body");
     hideTip();
@@ -892,30 +976,50 @@
     var span = end - start;
     function pct(t) { return Math.max(0, Math.min(100, (t - start) / span * 100)); }
 
-    // Axe : un trait par début de mois, libellé centré sur la portion visible du mois.
+    // Axe selon l'échelle : mois (1 trait/mois), semaines (lundis), jours.
     var grid = "", ticks = "";
-    var m = new Date(start);
-    var nMonths = 0;
-    var step = Math.ceil(span / DAY / 30 / 7) || 1; // au plus ~7 libellés de mois
-    while (m.getTime() < end) {
-      var mStart = m.getTime();
-      var next = new Date(m.getFullYear(), m.getMonth() + 1, 1).getTime();
-      var visibleEnd = Math.min(next, end);
-      grid += '<div class="g-gridline" style="left:' + pct(mStart) + '%"></div>';
-      if (nMonths % step === 0 && (visibleEnd - mStart) / DAY >= 12) {
-        var lab = m.toLocaleDateString("fr-FR", { month: "short" });
-        if (m.getMonth() === 0 || nMonths === 0) lab += " " + String(m.getFullYear()).slice(2);
-        ticks += '<span class="g-tick" style="left:' + pct((mStart + visibleEnd) / 2) + '%">' + lab + '</span>';
+    var PX = { jour: 32, semaine: 8, mois: 2.8 }[gScale];
+    function tick(t, label, cls) { ticks += '<span class="g-tick' + (cls ? " " + cls : "") + '" style="left:' + pct(t) + '%">' + label + '</span>'; }
+    function line(t) { grid += '<div class="g-gridline" style="left:' + pct(t) + '%"></div>'; }
+    var fr = function (d, o) { return d.toLocaleDateString("fr-FR", o); };
+    if (gScale === "mois") {
+      var m = new Date(start), nMonths = 0;
+      while (m.getTime() < end) {
+        var mStart = m.getTime();
+        var next = new Date(m.getFullYear(), m.getMonth() + 1, 1).getTime();
+        var visibleEnd = Math.min(next, end);
+        line(mStart);
+        if ((visibleEnd - mStart) / DAY >= 12) {
+          var lab = fr(m, { month: "short" });
+          if (m.getMonth() === 0 || nMonths === 0) lab += " " + String(m.getFullYear()).slice(2);
+          tick((mStart + visibleEnd) / 2, lab);
+        }
+        m = new Date(next); nMonths++;
       }
-      m = new Date(next);
-      nMonths++;
+    } else if (gScale === "semaine") {
+      var w = new Date(start); w.setDate(w.getDate() + ((8 - w.getDay()) % 7)); // 1er lundi
+      for (; w.getTime() < end; w = new Date(w.getFullYear(), w.getMonth(), w.getDate() + 7)) {
+        line(w.getTime());
+        tick(w.getTime(), fr(w, { day: "numeric", month: "short" }));
+      }
+    } else {
+      for (var dd = new Date(start); dd.getTime() < end; dd = new Date(dd.getFullYear(), dd.getMonth(), dd.getDate() + 1)) {
+        var t0 = dd.getTime(), mid = t0 + DAY / 2;
+        line(t0);
+        var first = dd.getDate() === 1;
+        tick(mid, first ? fr(dd, { day: "numeric", month: "short" }) : String(dd.getDate()), first || dd.getDay() === 1 ? "today" : "");
+      }
     }
-    if (today >= start && today <= end) grid += '<div class="g-todayline" style="left:' + pct(today) + '%"></div>';
+    var innerMin = 220 + 10 + Math.round(span / DAY * PX);    if (today >= start && today <= end) grid += '<div class="g-todayline" style="left:' + pct(today) + '%"></div>';
 
-    host.innerHTML =
+    host.innerHTML = '<div class="g-inner" style="min-width:' + innerMin + 'px">' +
       '<div class="g-axis" aria-hidden="true"><div></div><div class="g-ticks">' + ticks + '</div></div>' +
-      '<div class="g-rows"><div class="g-grid" aria-hidden="true">' + grid + '</div></div>';
+      '<div class="g-rows"><div class="g-grid" aria-hidden="true">' + grid + '</div></div></div>';
     var rows = host.querySelector(".g-rows");
+    if (gScroll) {
+      gScroll = false;
+      host.scrollLeft = gScale === "mois" ? 0 : Math.max(0, pct(today) / 100 * (innerMin - 230) - 40);
+    }
 
     items.forEach(function (d) {
       var clo = parseISO(d.date_cloture_sort).getTime();
